@@ -335,7 +335,7 @@ div.vehicle span { font-weight: 700; }
 -------------------------------------------*/
 
 h2.video-text, p.video-text { position: absolute; z-index: 3000; color: #FFF; } 
-h2.video-text { top: 1500px;  margin: 5% 28% !important;} 
+h2.video-text { top: 1500px;  margin: 8% 25%;} 
 p.video-text { top: 1800px;  margin: 0 10% 5% !important;} 
 
 video {
