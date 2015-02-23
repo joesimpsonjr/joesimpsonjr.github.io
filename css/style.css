@@ -40,17 +40,17 @@ div#disclaimer { background: #333; color: #999; padding: 5% 10%; }
 
 div#logo-container { float: left; }
 
-/*div#hero-01 { background: url('../images/feature@2x.jpg'); background-size: cover; /* height: 1000px}*/
+/*div#hero-01 { background: url('../images/feature2x.jpg'); background-size: cover; /* height: 1000px}*/
 
 /*div#hero-03 { background: url('../images/video.jpg'); background-size: cover; }/* height: 500px  */
 
 div#hero-02 { background: url('../images/map_mglfe_1420x750.png'); background-repeat: no-repeat; background-position-y: 50px; background-color: #EEE; }
 
-/* div#hero-04 { background: url('../images/customercenter@2x.png'); background-size: cover; }
+/* div#hero-04 { background: url('../images/customercenter2x.png'); background-size: cover; }
 
-div#hero-05 { background: url('../images/signage@2x.jpg'); background-size: cover; }
+div#hero-05 { background: url('../images/signage2x.jpg'); background-size: cover; }
 
-div#hero-06 { background: url('../images/disabledcustomers@2x.png'); background-size: cover; }*/
+div#hero-06 { background: url('../images/disabledcustomers2x.png'); background-size: cover; }*/
 
 div#hero-form { float: right; }
 
