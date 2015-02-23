@@ -1,0 +1,382 @@
+/* -----------------------------------------
+   01 - Tags 
+-------------------------------------------*/
+
+a { text-decoration: none; color: rgb(252, 184, 19); }
+
+a:hover { color: #FEFDC5; }
+
+body { font-family: "ff-din-web", 'Oswald', sans-serif; font-weight: 400; min-height: 100%; min-width: 1024px; width: 100%; margin: 0; padding: 0; }
+
+h2 { color: #fff; font-size: 9rem; font-weight: 700; margin: 0px; letter-spacing: -2px; }
+
+h2, p { text-align: center; }
+
+h3 { color: rgb(252, 184, 19); font-weight: 300; }
+
+html { font-size: 100%; }
+
+p { font-weight: 300; font-size: 1.3rem; color: #FFF; margin: 0px; }
+
+footer p { font-size: 1rem; text-align: left; }
+
+button { width: 300px; background: #fd031c; padding: 12px; } /* Hot Red */
+
+/* -----------------------------------------
+   02 - Selectors 
+-------------------------------------------*/
+
+div#hero-01 { padding: 9rem 10% 15%; text-shadow: 0 0 3px #000, 0 0 5px #000 }
+
+div#hero-02, div#hero-04, div#hero-05, div#hero-06 { padding: 5% 10% 15%; }
+
+div#hero-02 h2, div#hero-02 p { color: #333; }
+
+div#hero-05 h2, div#hero-05 p  { color: #333; }
+
+div#container { position: relative; }
+
+div#disclaimer { background: #333; color: #999; padding: 5% 10%; }
+
+div#logo-container { float: left; }
+
+/*div#hero-01 { background: url('../images/feature@2x.jpg'); background-size: cover; /* height: 1000px}*/
+
+/*div#hero-03 { background: url('../images/video.jpg'); background-size: cover; }/* height: 500px  */
+
+div#hero-02 { background: url('../images/map_mglfe_1420x750.png'); background-repeat: no-repeat; background-position-y: 50px; background-color: #EEE; }
+
+/* div#hero-04 { background: url('../images/customercenter@2x.png'); background-size: cover; }
+
+div#hero-05 { background: url('../images/signage@2x.jpg'); background-size: cover; }
+
+div#hero-06 { background: url('../images/disabledcustomers@2x.png'); background-size: cover; }*/
+
+div#hero-form { float: right; }
+
+div.clearfix { clear: both; }
+
+span#extra-umph { background: rgba(252, 184, 19, .8); padding: 2px 6px; color: #000; text-shadow: none; }
+
+span#extra-legaleeze { color: #666; }
+
+
+/* -----------------------------------------
+   03 - Main Menu
+-------------------------------------------*/
+
+div#logo-container { padding: 2%; width: 100%; position: fixed;}
+
+div#logo-container img { float: left; }
+
+div#vehicle-menu li { float: left; padding: 14px; }
+
+div#vehicle-menu ul { list-style: none; display: inline-block; margin: 0; }
+
+div#vehicle-menu { float: right; color: #FFF; }
+
+nav#menu.dark { background: rgb(252, 184, 19); height: 80px; position: fixed; top: 0px; width: 100%; z-index: 1; display: none; }
+
+nav#menu.light { background: rgba(252, 184, 19, 0); height: 80px; position: fixed; top: 0px; width: 100%; z-index: 1; }
+
+#select { background: rgb(252, 184, 19); border: 1px solid #FFFFFF; color:#FFFFFF; float: right; font-size: 1.3rem; font-family: 'Oswald', sans-serif; height: 50px; margin-right: 3% }
+
+div#vehicle-menu { float: right; color: #FFF; margin-right: 3%; }
+
+div#logo-container.light { background-color: rgb(252, 184, 19); display: none; }
+
+div#neo { width: 100%; text-align: center; position: relative; top: 100px; }
+
+/*div#neo a { background: #FD031C; color: #FFF; text-align: center; padding: 10px 48px; text-decoration: none; font-size: 18px; }
+
+div#neo a:hover { background: #FF5D00; } */
+
+div#neo img { margin-top: 7rem; }
+
+span.hamburger-dark { font-size: 5rem; float: right; display: none; }
+
+span.hamburger-light { font-size: 5rem; float: right; display: none; }
+
+a.animation-jump { color: white; background: red; padding: 12px 36px; display: inline-block; text-shadow: none; }
+
+a:hover.animation-jump { background-color: #960307; text-shadow: none; }
+
+/* -----------------------------------------
+   04 - Media Queries 
+-------------------------------------------*/
+
+/* Phones (portrait and landscape) ------- */
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+
+	/* ------------------------
+	           Menu
+	------------------------ */
+
+	a { color: #FFF; }
+	a:hover { color: #FEFDC5; background-color: #FEFDC5; }
+
+	nav#menu { background: rgb(252, 184, 19); height: 236px; }
+	div#logo-container.dark { float: left; padding: 0; position: relative; width: 100%; }	
+	div#logo-container.light { display: none; }
+	div#neo a { display: none; }
+	div#vehicle-menu { float: none; color: #FFF; margin: 0; padding: 5%; }
+	div#vehicle-menu li { border-top: 1px solid #FFF; float: none; padding: 12px 12px; }
+	div#vehicle-menu ul { padding: 12px 0; width: 100%; }
+	span.hamburger-dark { color: #fff; float: right; margin-right: 10%; font-size: 5rem; margin-top: -1.6rem; }
+	div#logo-container img { float: left; margin: 0px; padding: 5% 5% 0; }
+
+	/* ------------------------
+	        Hero Images
+	------------------------ */
+
+	h2 { font-size: 2.5rem; letter-spacing: 0px; text-align: left;}
+	p { font-size: 1rem; text-align: left; }
+
+	div#hero-01, div#hero-02, div#hero-03, div#hero-04, div#hero-05, div#hero-06, div#disclaimer { padding: 5% 7% 7%; }
+	div#hero-01 { background: none; background-color: #FD031C; }
+	div#hero-02 { background: url('../images/mobile_entrance.png'); background-size: cover; }
+	div#hero-03 span#extra-umph, div#hero-05 span#extra-umph { color: #333; }
+	div#hero-03 { background: url('../images/map_mglfe_1420x750.png'); background-color: #EEE; background-position-y: 50px; background-repeat: no-repeat; }
+	div#hero-04 { background: url('../images/mobile_customercenter.png'); background-size: cover; }
+	div#hero-05 { background: none; background-color: #DDD; }
+	div#hero-06 { background: url('../images/mobile_disabledcustomers.png'); background-size: cover;}
+
+	span#extra-umph { background: none; color: #FFF; font-style: italic; padding: 0; }
+
+	/* ------------------------
+	          Footer
+	------------------------ */
+
+	span#extra-legaleeze { color: #FFF; }
+
+	/* ------------------------
+	           Video
+	------------------------ */
+
+	/* ------------------------
+	     Isometric Diagrams
+	------------------------ */
+}
+
+/* Tablets (portrait and landscape) ----------- */
+
+	/* ------------------------
+	        Hero Images
+	------------------------ */
+
+
+@media only screen and (min-width:481px) and (max-width:768px) {
+
+	h2 { font-size: 5rem; }
+
+	div#hero-01 { padding: 15% 3%; }
+	div#vehicle-menu { margin: 3%; }
+
+}
+
+@media only screen  and (min-width:768px) and (max-width:1024px) {
+
+	h2 { font-size: 7rem; }
+
+	div#hero-01 { padding: 20% 5% 10%; }
+	div#vehicle-menu { margin-top: 2.7%; }
+
+}
+
+/* @media only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-resolution:144dpi) {
+
+}
+
+
+/* -----------------------------------------
+   05 - Animation
+-------------------------------------------*/
+
+.p2550 {
+	background-color: #AAA;
+}
+
+.p2550 .vehicle {
+	height: 810px;
+}
+
+.vehicle {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	width: 1134px;
+	-webkit-animation: vehicleslide 1.5s 0.3s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+	-moz-animation: vehicleslide 1.5s 0.3s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+	-ms-animation: vehicleslide 1.5s 0.3s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+	-o-animation: vehicleslide 1.5s 0.3s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+	animation: vehicleslide 1.5s 0.3s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+	-webkit-transition: all 0.5s cubic-bezier(0, 0.91, 0.22, 0.97);
+	-moz-transition: all 0.5s cubic-bezier(0, 0.91, 0.22, 0.97);
+	-o-transition: all 0.5s cubic-bezier(0, 0.91, 0.22, 0.97);
+	-ms-transition: all 0.5s cubic-bezier(0, 0.91, 0.22, 0.97);
+	transition: all 0.5s cubic-bezier(0, 0.91, 0.22, 0.97);
+	z-index: 100;
+}
+
+#container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	clear: both;
+	color: #FFF;
+}
+
+.vehicle-container .vehicle div {
+	position: absolute;
+	display: block;
+	width: 100%;
+	-webkit-transition: all 1s cubic-bezier(0, 0.91, 0.22, 0.97);
+	-moz-transition: all 1s cubic-bezier(0, 0.91, 0.22, 0.97);
+	-o-transition: all 1s cubic-bezier(0, 0.91, 0.22, 0.97);
+	-ms-transition: all 1s cubic-bezier(0, 0.91, 0.22, 0.97);
+	transition: all 1s cubic-bezier(0, 0.91, 0.22, 0.97);
+}
+
+.layer-01 {
+	background-image: url('../images/layer-01.svg');
+	background-repeat: no-repeat;
+	height: 810px;
+	top:0;
+	z-index: 100;
+}
+
+.layer-02 {
+/*	background-image: url('../images/layer-02.svg');
+	background-repeat: no-repeat;
+	height: 1134px;
+	top:19%;
+	z-index: 75;*/
+	background-image: url('../images/layer-02.svg');
+	background-repeat: no-repeat;
+	height: 1134px;
+	top: 0;
+	z-index: 75;
+	left: 2px;
+}
+
+.layer-03 {
+	background-image: url('../images/layer-03.svg');
+	background-repeat: no-repeat;
+	height: 1134px;
+	top:0;
+	z-index: 50;
+}
+
+.layer-04 {
+	background-image: url('../images/layer-04.svg');
+	background-repeat: no-repeat;
+	height: 1134px;
+	top:0;
+	z-index: 25;
+}
+
+.layer-05 {
+	background-image: url('../images/layer-05.svg');
+	background-repeat: no-repeat;
+	height: 1134px;
+	top:0;
+	z-index: 1;
+}
+
+section { display: block; }
+
+div.vehicle p {
+	color: #FFF;
+	background: rgb(252, 184, 19);
+	font-size: 18px;
+	padding: 20px;
+	position: absolute;
+	right: 5%;
+	text-align: left;
+	top: 40%;
+	width: 300px;
+}
+
+div.vehicle span { font-weight: 700; }
+
+.vehicle-container .container div p {
+	background-color: white;
+	color: black;
+	position: absolute;
+	top: 50%;
+	right: -50%;
+	-webkit-transform: translate(100%, -50%);
+	-moz-transform: translate(100%, -50%);
+	-o-transform: translate(100%, -50%);
+	-ms-transform: translate(100%, -50%);
+	transform: translate(100%, -50%);
+	font-size: 1.4em;
+	padding: 10px 15px;
+	margin: 0;
+	text-transform: uppercase;
+	font-weight: 900;
+	opacity: 0;
+}
+
+
+/* -----------------------------------------
+   06 - Full Screen Background Video
+-------------------------------------------*/
+
+h2.video-text, p.video-text { position: absolute; z-index: 3000; color: #FFF; } 
+h2.video-text { top: 1500px;  margin: 5% 28% !important;} 
+p.video-text { top: 1800px;  margin: 0 10% 5% !important;} 
+
+video {
+	position: relative; right: 0; bottom: 0; min-width: 100%; min-height: 100%; width: auto;	height: auto; z-index: -100; background: url(images/video.jpg) no-repeat; background-size: cover; /*display: block;*/}
+
+@media screen and (max-device-width: 800px) { 
+	body { background: url(images/video.jpg) #000 no-repeat center center fixed;} 
+	#bgvid { display: none;}
+}
+
+video#bgvid { transition: 1s opacity; width: 1500px;}
+.stopfade { opacity: .5; }
+
+
+/* -----------------------------------------
+   07 - Menu Swap
+-------------------------------------------*/
+
+.nav {
+    background-color:transparent;
+    color:#fff;
+    transition: all 0.25s ease;
+    position:fixed;
+    top:0;
+    width:100%;
+    background-color:#ccc;
+    padding:1em 0;
+    /* make sure to add vendor prefixes here */
+}
+
+.nav.past-main {
+    background-color:#fff;
+    color:#444;
+}
+
+##hero-01 {
+  height:500px;
+  background-color:red;
+}
+
+#below-main {
+  height:1000px;
+  background-color:#eee;
+}
