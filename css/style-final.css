@@ -1,4 +1,25 @@
+div#logo-container {
+  width: 100%;
+}
 
+div#logo-container img {
+  float: left;
+}
+
+div#vehicle-menu {
+  float: right;
+  width: 50%;
+}
+
+div#vehicle-menu ul {
+  list-style: none;
+  display: inline-block;
+}
+
+div#vehicle-menu li {
+  padding: 3%;
+  float: left;
+} /* floats menu to the left of the logo */
 
 /* -----------------------------------------
    05 - Animation
@@ -10,7 +31,7 @@ body, html {
   width: 100%;
   margin: 0;
   padding: 0;
-  background-color: #f90000;
+  background-color: #FCB813;
 } /* what does this do? */
 
 .lightrail {
@@ -61,6 +82,7 @@ body, html {
 	height: 487px; /* 386(w) x 487(h) 
 	left: 235px;
 	top: -15px;*/
+	bottom: 0;
 	z-index: 100;
 } 
 

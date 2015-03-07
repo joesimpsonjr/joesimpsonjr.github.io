@@ -1,0 +1,2373 @@
+/* line 33, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 40, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/* line 48, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 55, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 77, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+html {
+  background: #fff;
+  color: #000;
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 92, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+
+/* line 98, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/* line 113, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/* line 119, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* line 132, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 137, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+
+/* line 142, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+
+/* line 147, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+
+/* line 152, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0;
+}
+
+/* line 157, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+h6 {
+  font-size: 0.67em;
+  margin: 2.33em 0;
+}
+
+/* line 163, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 169, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 173, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+blockquote {
+  margin: 1em 40px;
+}
+
+/* line 178, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 184, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* line 191, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 198, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+p,
+pre {
+  margin: 1em 0;
+}
+
+/* line 206, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+}
+
+/* line 213, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* line 220, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+q {
+  quotes: none;
+}
+
+/* line 226, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+/* line 232, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 238, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 245, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 249, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 263, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+dl,
+menu,
+ol,
+ul {
+  margin: 1em 0;
+}
+
+/* line 267, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+dd {
+  margin: 0 0 0 40px;
+}
+
+/* line 274, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+menu,
+ol,
+ul {
+  padding: 0 0 0 40px;
+}
+
+/* line 280, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none;
+}
+
+/* line 293, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 299, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 310, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+figure {
+  margin: 0;
+}
+
+/* line 321, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+form {
+  margin: 0;
+}
+
+/* line 326, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 335, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+  *margin-left: -7px;
+}
+
+/* line 349, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+
+/* line 359, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+button,
+input {
+  line-height: normal;
+}
+
+/* line 368, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/* line 382, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+  *overflow: visible;
+}
+
+/* line 390, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/* line 399, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  *height: 13px;
+  *width: 13px;
+}
+
+/* line 409, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 419, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 425, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 432, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+/* line 444, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 6, ../sass/partials/_fonts.scss */
+body {
+  font-family: "effra",sans-serif;
+  color: white;
+  font-size: 12px;
+}
+
+/* line 12, ../sass/partials/_fonts.scss */
+footer a {
+  font-color: white;
+  text-transform: uppercase;
+}
+
+@-webkit-keyframes wiperight {
+  /* line 127, ../sass/partials/_mixins.scss */
+  0% {
+    opacity: 0;
+    width: 0%;
+  }
+
+  /* line 128, ../sass/partials/_mixins.scss */
+  100% {
+    opacity: 1;
+    width: 50%;
+  }
+}
+
+@-webkit-keyframes wipedown {
+  /* line 132, ../sass/partials/_mixins.scss */
+  0% {
+    opacity: 0;
+    height: 0%;
+  }
+
+  /* line 133, ../sass/partials/_mixins.scss */
+  100% {
+    opacity: 1;
+    height: 50%;
+  }
+}
+
+@-webkit-keyframes wipeleft {
+  /* line 137, ../sass/partials/_mixins.scss */
+  0% {
+    opacity: 0;
+    width: 0%;
+  }
+
+  /* line 138, ../sass/partials/_mixins.scss */
+  100% {
+    opacity: 1;
+    width: 50%;
+  }
+}
+
+@-webkit-keyframes wipeup {
+  /* line 142, ../sass/partials/_mixins.scss */
+  0% {
+    opacity: 0;
+    height: 0%;
+  }
+
+  /* line 143, ../sass/partials/_mixins.scss */
+  100% {
+    opacity: 1;
+    height: 50%;
+  }
+}
+
+@-webkit-keyframes slideuplogo {
+  /* line 147, ../sass/partials/_mixins.scss */
+  0% {
+    -webkit-transform: translate(-50%, -40%);
+    opacity: 0;
+  }
+
+  /* line 151, ../sass/partials/_mixins.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes slideUp {
+  /* line 155, ../sass/partials/_mixins.scss */
+  0% {
+    -webkit-transform: translate(0, 40%);
+    opacity: 0;
+  }
+
+  /* line 159, ../sass/partials/_mixins.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  /* line 163, ../sass/partials/_mixins.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 164, ../sass/partials/_mixins.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes shaky {
+  /* line 32, scss/shaky-animation.scss */
+  /* line 170, ../sass/partials/_mixins.scss */
+  0%, 33% {
+    background-position: 50% 0;
+  }
+
+  /* line 36, scss/shaky-animation.scss */
+  /* line 175, ../sass/partials/_mixins.scss */
+  33.0001%, 66% {
+    background-position: 50% 50%;
+  }
+
+  /* line 40, scss/shaky-animation.scss */
+  /* line 180, ../sass/partials/_mixins.scss */
+  66.0001%, 100% {
+    background-position: 50% 100%;
+  }
+}
+
+@-webkit-keyframes burgerslide {
+  /* line 187, ../sass/partials/_mixins.scss */
+  0% {
+    -webkit-transform: translate(-500%, -50%);
+  }
+
+  /* line 191, ../sass/partials/_mixins.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+/* line 7, ../sass/partials/_page.scss */
+body, select, input, textarea {
+  color: #222222;
+}
+
+/* line 17, ../sass/partials/_page.scss */
+* {
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+}
+
+/* line 23, ../sass/partials/_page.scss */
+body, html {
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #192128;
+}
+
+/* line 32, ../sass/partials/_page.scss */
+a {
+  font-color: #fff;
+}
+
+/* line 36, ../sass/partials/_page.scss */
+.homepage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #192128;
+  overflow: hidden;
+  clear: both;
+  position: block;
+}
+
+/* line 53, ../sass/partials/_page.scss */
+.homepage ul {
+  position: relative;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+/* line 60, ../sass/partials/_page.scss */
+.homepage ul li {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  width: 50%;
+  height: 50%;
+  float: left;
+  overflow: hidden;
+}
+/* line 71, ../sass/partials/_page.scss */
+.homepage ul li img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s cubic-bezier(0, 0.91, 0.22, 0.97);
+  -moz-transition: all 0.3s cubic-bezier(0, 0.91, 0.22, 0.97);
+  -o-transition: all 0.3s cubic-bezier(0, 0.91, 0.22, 0.97);
+  -ms-transition: all 0.3s cubic-bezier(0, 0.91, 0.22, 0.97);
+  transition: all 0.3s cubic-bezier(0, 0.91, 0.22, 0.97);
+  width: 275px;
+  opacity: 1;
+}
+
+/* line 90, ../sass/partials/_page.scss */
+li.one {
+  position: relative;
+  top: 0;
+  left: 0%;
+  background-color: #ffae00;
+  -webkit-transition: all 0.5s cubic-bezier(0, 0.91, 0.22, 0.97);
+  -moz-transition: all 0.5s cubic-bezier(0, 0.91, 0.22, 0.97);
+  -o-transition: all 0.5s cubic-bezier(0, 0.91, 0.22, 0.97);
+  -ms-transition: all 0.5s cubic-bezier(0, 0.91, 0.22, 0.97);
+  transition: all 0.5s cubic-bezier(0, 0.91, 0.22, 0.97);
+  -webkit-animation: wiperight 1s 0 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -moz-animation: wiperight 1s 0 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -ms-animation: wiperight 1s 0 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -o-animation: wiperight 1s 0 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  animation: wiperight 1s 0 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+}
+/* line 98, ../sass/partials/_page.scss */
+li.one div {
+  display: inline;
+}
+/* line 104, ../sass/partials/_page.scss */
+li.one a {
+  font-size: 1em;
+  text-decoration: none;
+  color: #ffae00;
+  padding: 0.5em 1em;
+}
+/* line 112, ../sass/partials/_page.scss */
+li.one .intro-side-front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  -webkit-transition: all 0.8s cubic-bezier(0, 0.91, 0.22, 0.97);
+  -moz-transition: all 0.8s cubic-bezier(0, 0.91, 0.22, 0.97);
+  -o-transition: all 0.8s cubic-bezier(0, 0.91, 0.22, 0.97);
+  -ms-transition: all 0.8s cubic-bezier(0, 0.91, 0.22, 0.97);
+  transition: all 0.8s cubic-bezier(0, 0.91, 0.22, 0.97);
+}
+/* line 120, ../sass/partials/_page.scss */
+li.one .intro-side-front h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-animation: slideuplogo 1s 0.8s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -moz-animation: slideuplogo 1s 0.8s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -ms-animation: slideuplogo 1s 0.8s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -o-animation: slideuplogo 1s 0.8s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  animation: slideuplogo 1s 0.8s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  width: 295px;
+  height: 150px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-size: cover;
+  background-image: url(../img/logo_burgers.svg);
+  background-position: 50% 100%;
+  -webkit-animation: shaky 0.25s infinite;
+  animation: shaky 0.25s infinite;
+}
+/* line 145, ../sass/partials/_page.scss */
+li.one .intro-side-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 100%;
+  font-size: 2em;
+  color: white;
+  -webkit-transition: all 0.8s cubic-bezier(0, 0.91, 0.22, 0.97);
+  -moz-transition: all 0.8s cubic-bezier(0, 0.91, 0.22, 0.97);
+  -o-transition: all 0.8s cubic-bezier(0, 0.91, 0.22, 0.97);
+  -ms-transition: all 0.8s cubic-bezier(0, 0.91, 0.22, 0.97);
+  transition: all 0.8s cubic-bezier(0, 0.91, 0.22, 0.97);
+}
+/* line 155, ../sass/partials/_page.scss */
+li.one .intro-side-back div {
+  padding: 0;
+  margin: 0;
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* line 168, ../sass/partials/_page.scss */
+li.two {
+  -webkit-animation: wipedown 1s 0.4s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -moz-animation: wipedown 1s 0.4s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -ms-animation: wipedown 1s 0.4s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -o-animation: wipedown 1s 0.4s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  animation: wipedown 1s 0.4s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  top: 0;
+  left: 50%;
+  background-color: #b52904;
+}
+
+/* line 176, ../sass/partials/_page.scss */
+li.three {
+  -webkit-animation: wipeup 1s 0.8s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -moz-animation: wipeup 1s 0.8s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -ms-animation: wipeup 1s 0.8s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -o-animation: wipeup 1s 0.8s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  animation: wipeup 1s 0.8s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  bottom: 0;
+  right: 50%;
+  background-color: #3f4e5f;
+}
+
+/* line 186, ../sass/partials/_page.scss */
+li.four {
+  -webkit-animation: wipeleft 1s 0.6s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -moz-animation: wipeleft 1s 0.6s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -ms-animation: wipeleft 1s 0.6s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -o-animation: wipeleft 1s 0.6s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  animation: wipeleft 1s 0.6s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  top: 50%;
+  right: 0;
+  background-color: #0493b5;
+}
+
+/* line 194, ../sass/partials/_page.scss */
+.rollover {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  z-index: 100;
+  opacity: 0;
+  border: 0;
+  -webkit-transition: all 0.5s cubic-bezier(0, 0.91, 0.22, 0.97);
+  -moz-transition: all 0.5s cubic-bezier(0, 0.91, 0.22, 0.97);
+  -o-transition: all 0.5s cubic-bezier(0, 0.91, 0.22, 0.97);
+  -ms-transition: all 0.5s cubic-bezier(0, 0.91, 0.22, 0.97);
+  transition: all 0.5s cubic-bezier(0, 0.91, 0.22, 0.97);
+}
+/* line 208, ../sass/partials/_page.scss */
+.rollover .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+/* line 215, ../sass/partials/_page.scss */
+.rollover h3 {
+  padding: 0;
+  margin: 0;
+  font-size: 3em;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+/* line 222, ../sass/partials/_page.scss */
+.rollover p {
+  font-size: 1.2em;
+  width: 100%;
+  margin: 0.5em 0;
+  text-align: center;
+}
+
+/* 
+ -webkit-animation: name duration delay iterations direction fillmode timingfunction
+ -webkit-animation: test 1s 2s 3 alternate backwards
+ */
+/* line 236, ../sass/partials/_page.scss */
+.homepage ul li.one:hover {
+  background-color: #e27500;
+}
+/* line 238, ../sass/partials/_page.scss */
+.homepage ul li.one:hover .intro-side-front {
+  left: -100%;
+}
+/* line 241, ../sass/partials/_page.scss */
+.homepage ul li.one:hover .intro-side-back {
+  left: 0%;
+}
+
+/* line 247, ../sass/partials/_page.scss */
+.homepage ul li:hover img {
+  width: 220px;
+  opacity: 0.3;
+}
+/* line 252, ../sass/partials/_page.scss */
+.homepage ul li:hover .rollover {
+  border: 10px solid white;
+  opacity: 1;
+}
+/* line 256, ../sass/partials/_page.scss */
+.homepage ul li:hover .rollover h3 {
+  -webkit-animation: slideUp 0.5s 0 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -moz-animation: slideUp 0.5s 0 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -ms-animation: slideUp 0.5s 0 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -o-animation: slideUp 0.5s 0 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  animation: slideUp 0.5s 0 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+}
+/* line 260, ../sass/partials/_page.scss */
+.homepage ul li:hover .rollover p {
+  -webkit-animation: slideUp 0.5s 0.2s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -moz-animation: slideUp 0.5s 0.2s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -ms-animation: slideUp 0.5s 0.2s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -o-animation: slideUp 0.5s 0.2s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  animation: slideUp 0.5s 0.2s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+}
+
+/* line 268, ../sass/partials/_page.scss */
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  max-height: 63px;
+  text-align: left;
+  overflow: hidden;
+  -webkit-animation: fadeIn 0.5s 1s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -moz-animation: fadeIn 0.5s 1s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -ms-animation: fadeIn 0.5s 1s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -o-animation: fadeIn 0.5s 1s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  animation: fadeIn 0.5s 1s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -webkit-transition: all 0.8s cubic-bezier(0, 0.91, 0.22, 0.97);
+  -moz-transition: all 0.8s cubic-bezier(0, 0.91, 0.22, 0.97);
+  -o-transition: all 0.8s cubic-bezier(0, 0.91, 0.22, 0.97);
+  -ms-transition: all 0.8s cubic-bezier(0, 0.91, 0.22, 0.97);
+  transition: all 0.8s cubic-bezier(0, 0.91, 0.22, 0.97);
+}
+/* line 281, ../sass/partials/_page.scss */
+footer p {
+  display: none;
+}
+/* line 285, ../sass/partials/_page.scss */
+footer a {
+  -webkit-transition: all 0.3s cubic-bezier(0, 0.91, 0.22, 0.97);
+  -moz-transition: all 0.3s cubic-bezier(0, 0.91, 0.22, 0.97);
+  -o-transition: all 0.3s cubic-bezier(0, 0.91, 0.22, 0.97);
+  -ms-transition: all 0.3s cubic-bezier(0, 0.91, 0.22, 0.97);
+  transition: all 0.3s cubic-bezier(0, 0.91, 0.22, 0.97);
+  padding: 12px;
+  font-weight: 900;
+  display: inline-block;
+  position: relative;
+  color: rgba(255, 255, 255, 0.3);
+  text-decoration: none;
+  margin: 1em 0 1em 1em;
+  border-radius: 0.5em;
+  background-color: transparent;
+}
+
+/* line 306, ../sass/partials/_page.scss */
+.instagram:hover {
+  color: white;
+  background-color: #4a719a;
+}
+
+/* line 311, ../sass/partials/_page.scss */
+.twitter:hover {
+  color: white;
+  background-color: #5ea8f1;
+}
+
+/* line 316, ../sass/partials/_page.scss */
+.compliments:hover {
+  color: white;
+  background-color: #ee9700;
+}
+
+/* line 321, ../sass/partials/_page.scss */
+.share-twitter {
+  top: 21px;
+  right: 0px;
+  display: inline;
+  position: absolute;
+}
+
+/* line 328, ../sass/partials/_page.scss */
+.share-facebook {
+  top: 21px;
+  right: 128px;
+  display: inline;
+  position: absolute;
+}
+
+/* line 335, ../sass/partials/_page.scss */
+.backtotop {
+  display: none;
+}
+
+/* line 341, ../sass/partials/_page.scss */
+.burger-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  clear: both;
+  color: white;
+}
+
+/* line 357, ../sass/partials/_page.scss */
+#exploder {
+  display: none;
+}
+
+/* line 361, ../sass/partials/_page.scss */
+.churburger {
+  background-color: #b52904;
+}
+
+/* line 365, ../sass/partials/_page.scss */
+.churburger .burger {
+  height: 450px;
+}
+
+/* line 369, ../sass/partials/_page.scss */
+.burger {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 375px;
+  -webkit-animation: burgerslide 1.5s 0.3s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -moz-animation: burgerslide 1.5s 0.3s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -ms-animation: burgerslide 1.5s 0.3s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -o-animation: burgerslide 1.5s 0.3s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  animation: burgerslide 1.5s 0.3s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -webkit-transition: all 0.5s cubic-bezier(0, 0.91, 0.22, 0.97);
+  -moz-transition: all 0.5s cubic-bezier(0, 0.91, 0.22, 0.97);
+  -o-transition: all 0.5s cubic-bezier(0, 0.91, 0.22, 0.97);
+  -ms-transition: all 0.5s cubic-bezier(0, 0.91, 0.22, 0.97);
+  transition: all 0.5s cubic-bezier(0, 0.91, 0.22, 0.97);
+  z-index: 100;
+}
+
+/* line 384, ../sass/partials/_page.scss */
+.shadow-vehicle {
+  opacity: 1;
+  -webkit-transition: all 0.5s cubic-bezier(0, 0.91, 0.22, 0.97);
+  -moz-transition: all 0.5s cubic-bezier(0, 0.91, 0.22, 0.97);
+  -o-transition: all 0.5s cubic-bezier(0, 0.91, 0.22, 0.97);
+  -ms-transition: all 0.5s cubic-bezier(0, 0.91, 0.22, 0.97);
+  transition: all 0.5s cubic-bezier(0, 0.91, 0.22, 0.97);
+}
+
+/* line 389, ../sass/partials/_page.scss */
+.burger-container .burger div {
+  position: absolute;
+  display: block;
+  width: 100%;
+  -webkit-transition: all 1s cubic-bezier(0, 0.91, 0.22, 0.97);
+  -moz-transition: all 1s cubic-bezier(0, 0.91, 0.22, 0.97);
+  -o-transition: all 1s cubic-bezier(0, 0.91, 0.22, 0.97);
+  -ms-transition: all 1s cubic-bezier(0, 0.91, 0.22, 0.97);
+  transition: all 1s cubic-bezier(0, 0.91, 0.22, 0.97);
+}
+/* line 396, ../sass/partials/_page.scss */
+.burger-container .burger div p {
+  background-color: white;
+  color: black;
+  position: absolute;
+  top: 50%;
+  right: -50%;
+  -webkit-transform: translate(100%, -50%);
+  -moz-transform: translate(100%, -50%);
+  -o-transform: translate(100%, -50%);
+  -ms-transform: translate(100%, -50%);
+  transform: translate(100%, -50%);
+  font-size: 1.4em;
+  padding: 10px 15px;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 900;
+  opacity: 0;
+}
+
+/* line 417, ../sass/partials/_page.scss */
+.burger-container .burger:hover .burger-vehicle:hover {
+  -webkit-transform: translate(10%, 0);
+  -moz-transform: translate(10%, 0);
+  -o-transform: translate(10%, 0);
+  -ms-transform: translate(10%, 0);
+  transform: translate(10%, 0);
+}
+/* line 420, ../sass/partials/_page.scss */
+.burger-container .burger:hover .burger-vehicle:hover p {
+  margin: 5px 0;
+  opacity: 1;
+  -webkit-transform: translate(10%, -50%);
+  -moz-transform: translate(10%, -50%);
+  -o-transform: translate(10%, -50%);
+  -ms-transform: translate(10%, -50%);
+  transform: translate(10%, -50%);
+}
+
+/* line 428, ../sass/partials/_page.scss */
+.chur-vehicle-10 {
+  background-image: url("../img/chur_vehicle_10_bun.svg");
+  height: 220px;
+  z-index: 100;
+  top: 0;
+}
+
+/* line 435, ../sass/partials/_page.scss */
+.chur-vehicle-20 {
+  height: 160px;
+  background-image: url("../img/chur_vehicle_20_cheesesauce.svg");
+  z-index: 90;
+  top: 19%;
+}
+
+/* line 442, ../sass/partials/_page.scss */
+.chur-vehicle-25 {
+  height: 160px;
+  background-image: url("../img/chur_vehicle_25_cheesesauce-shadow.svg");
+  z-index: 89;
+  top: 21%;
+}
+
+/* line 449, ../sass/partials/_page.scss */
+.chur-vehicle-30 {
+  height: 165px;
+  background-image: url("../img/chur_vehicle_30_pickle.svg");
+  z-index: 80;
+  top: 28%;
+}
+
+/* line 456, ../sass/partials/_page.scss */
+.chur-vehicle-40 {
+  height: 185px;
+  background-image: url("../img/chur_vehicle_40_cheese.svg");
+  z-index: 70;
+  bottom: 40%;
+}
+
+/* line 463, ../sass/partials/_page.scss */
+.chur-vehicle-50 {
+  height: 205px;
+  background-image: url("../img/chur_vehicle_50_patty.svg");
+  z-index: 60;
+  bottom: 27%;
+}
+
+/* line 470, ../sass/partials/_page.scss */
+.chur-vehicle-60 {
+  height: 155px;
+  background-image: url("../img/chur_vehicle_60_chutney.svg");
+  z-index: 50;
+  bottom: 22%;
+}
+
+/* line 477, ../sass/partials/_page.scss */
+.chur-vehicle-70 {
+  height: 225px;
+  background-image: url("../img/chur_vehicle_70_bottom.svg");
+  z-index: 40;
+  bottom: 7%;
+}
+
+/* line 484, ../sass/partials/_page.scss */
+.chur-vehicle-80 {
+  bottom: 0;
+  height: 198px;
+  background-image: url("../img/chur_vehicle_80_shadow.svg");
+  z-index: 30;
+}
+
+/* line 491, ../sass/partials/_page.scss */
+.burger-container .text {
+  position: relative;
+  padding: 40px;
+  width: 100%;
+  height: 100%;
+}
+/* line 498, ../sass/partials/_page.scss */
+.burger-container .text h3 {
+  font-size: 3em;
+  padding: 0;
+  margin: 0;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.2);
+  -webkit-animation: slideUp 1s 0s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -moz-animation: slideUp 1s 0s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -ms-animation: slideUp 1s 0s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -o-animation: slideUp 1s 0s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  animation: slideUp 1s 0s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+}
+/* line 507, ../sass/partials/_page.scss */
+.burger-container .text h4 {
+  font-size: 3em;
+  padding: 0;
+  margin: 0;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
+}
+/* line 516, ../sass/partials/_page.scss */
+.burger-container .text p {
+  font-size: 1.4em;
+  margin: 0.5em 0 1.5em;
+  -webkit-animation: slideUp 1s 0.5s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -moz-animation: slideUp 1s 0.5s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -ms-animation: slideUp 1s 0.5s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -o-animation: slideUp 1s 0.5s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  animation: slideUp 1s 0.5s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+}
+/* line 524, ../sass/partials/_page.scss */
+.burger-container .text a {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-family: Helvetica, Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.2);
+  font-size: 0.8em;
+  border-radius: 0.5em;
+  padding: 1em;
+  margin: 1em 0.5em 1em 0;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  opacity: 1;
+  -webkit-transition: all 0.5s cubic-bezier(0, 0.91, 0.22, 0.97);
+  -moz-transition: all 0.5s cubic-bezier(0, 0.91, 0.22, 0.97);
+  -o-transition: all 0.5s cubic-bezier(0, 0.91, 0.22, 0.97);
+  -ms-transition: all 0.5s cubic-bezier(0, 0.91, 0.22, 0.97);
+  transition: all 0.5s cubic-bezier(0, 0.91, 0.22, 0.97);
+  -webkit-animation: fadeIn 2s 2s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -moz-animation: fadeIn 2s 2s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -ms-animation: fadeIn 2s 2s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -o-animation: fadeIn 2s 2s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  animation: fadeIn 2s 2s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+}
+/* line 543, ../sass/partials/_page.scss */
+.burger-container .text a:hover {
+  border: 1px solid rgba(255, 255, 255, 0.8);
+}
+/* line 549, ../sass/partials/_page.scss */
+.burger-container .text .back {
+  position: absolute;
+  bottom: 50px;
+  left: 40px;
+}
+/* line 555, ../sass/partials/_page.scss */
+.burger-container .text .logo-compliments {
+  -webkit-animation: slideUp 1s 1s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -moz-animation: slideUp 1s 1s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -ms-animation: slideUp 1s 1s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -o-animation: slideUp 1s 1s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  animation: slideUp 1s 1s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  position: absolute;
+  width: 210px;
+  height: 110px;
+  background-image: url("../img/logo_compliments.svg");
+  bottom: 40px;
+  right: 30px;
+}
+/* line 567, ../sass/partials/_page.scss */
+.burger-container .text .logo-okayboss {
+  -webkit-animation: slideUp 1s 1.3s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -moz-animation: slideUp 1s 1.3s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -ms-animation: slideUp 1s 1.3s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  -o-animation: slideUp 1s 1.3s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  animation: slideUp 1s 1.3s 1 normal backwards cubic-bezier(0, 0.91, 0.22, 0.97);
+  position: absolute;
+  width: 138px;
+  height: 37px;
+  background-image: url("../img/logo_okayboss.svg");
+  top: 40px;
+  right: 30px;
+  -webkit-transition: all 0.5s cubic-bezier(0, 0.91, 0.22, 0.97);
+  -moz-transition: all 0.5s cubic-bezier(0, 0.91, 0.22, 0.97);
+  -o-transition: all 0.5s cubic-bezier(0, 0.91, 0.22, 0.97);
+  -ms-transition: all 0.5s cubic-bezier(0, 0.91, 0.22, 0.97);
+  transition: all 0.5s cubic-bezier(0, 0.91, 0.22, 0.97);
+}
+/* line 580, ../sass/partials/_page.scss */
+.burger-container .text .logo-okayboss a {
+  display: block;
+  position: relative;
+  width: 138px;
+  height: 37px;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+/* line 591, ../sass/partials/_page.scss */
+.burger-container .text .logo-okayboss:hover {
+  right: 40px;
+}
+
+/* line 599, ../sass/partials/_page.scss */
+.marys {
+  background-color: #3f4e5f;
+}
+
+/* line 603, ../sass/partials/_page.scss */
+.marys .burger {
+  height: 325px;
+}
+
+/* line 607, ../sass/partials/_page.scss */
+.marys-vehicle-10 {
+  background-image: url("../img/marys_vehicle_10_topbun.svg");
+  height: 200px;
+  z-index: 100;
+  top: 0;
+}
+
+/* line 614, ../sass/partials/_page.scss */
+.marys-vehicle-20 {
+  height: 150px;
+  background-image: url("../img/marys_vehicle_20_tomatoes.svg");
+  z-index: 90;
+  top: 19%;
+}
+
+/* line 621, ../sass/partials/_page.scss */
+.marys-vehicle-30 {
+  height: 120px;
+  background-image: url("../img/marys_vehicle_30_lettuce.svg");
+  z-index: 89;
+  top: 23%;
+}
+
+/* line 628, ../sass/partials/_page.scss */
+.marys-vehicle-40 {
+  height: 195px;
+  background-image: url("../img/marys_vehicle_40_quezo.svg");
+  z-index: 80;
+  top: 15%;
+}
+
+/* line 635, ../sass/partials/_page.scss */
+.marys-vehicle-50 {
+  height: 240px;
+  background-image: url("../img/marys_vehicle_50_patty.svg");
+  z-index: 70;
+  bottom: 8%;
+}
+
+/* line 642, ../sass/partials/_page.scss */
+.marys-vehicle-60 {
+  height: 95px;
+  background-image: url("../img/marys_vehicle_60_sauce.svg");
+  z-index: 60;
+  bottom: 27%;
+}
+
+/* line 649, ../sass/partials/_page.scss */
+.marys-vehicle-70 {
+  height: 250px;
+  background-image: url("../img/marys_vehicle_70_bottombun.svg");
+  z-index: 50;
+  bottom: 4%;
+}
+
+/* line 656, ../sass/partials/_page.scss */
+.marys-vehicle-80 {
+  height: 128px;
+  background-image: url("../img/marys_vehicle_80_shadow.svg");
+  z-index: 40;
+  bottom: 0%;
+}
+
+/* line 670, ../sass/partials/_page.scss */
+.huxtaburger {
+  background-color: #0493b5;
+}
+
+/* line 674, ../sass/partials/_page.scss */
+.huxtaburger .burger {
+  height: 375px;
+}
+
+/* line 678, ../sass/partials/_page.scss */
+.huxta-vehicle-10 {
+  background-image: url("../img/huxta_vehicle_10_topbun.svg");
+  height: 210px;
+  z-index: 100;
+  top: 0;
+}
+
+/* line 685, ../sass/partials/_page.scss */
+.huxta-vehicle-20 {
+  height: 140px;
+  background-image: url("../img/huxta_vehicle_20_mayo.svg");
+  z-index: 90;
+  top: 19%;
+}
+
+/* line 692, ../sass/partials/_page.scss */
+.huxta-vehicle-30 {
+  height: 175px;
+  background-image: url("../img/huxta_vehicle_30_lettuce.svg");
+  z-index: 89;
+  top: 18%;
+}
+
+/* line 699, ../sass/partials/_page.scss */
+.huxta-vehicle-40 {
+  height: 160px;
+  background-image: url("../img/huxta_vehicle_40_tomato.svg");
+  z-index: 80;
+  top: 25%;
+}
+
+/* line 706, ../sass/partials/_page.scss */
+.huxta-vehicle-50 {
+  height: 160px;
+  background-image: url("../img/huxta_vehicle_50_mustard.svg");
+  z-index: 75;
+  top: 31%;
+}
+
+/* line 713, ../sass/partials/_page.scss */
+.huxta-vehicle-60 {
+  height: 180px;
+  background-image: url("../img/huxta_vehicle_60_cheese.svg");
+  z-index: 70;
+  top: 29%;
+}
+
+/* line 720, ../sass/partials/_page.scss */
+.huxta-vehicle-65 {
+  height: 160px;
+  background-image: url("../img/huxta_vehicle_65_cheeseshadow.svg");
+  z-index: 69;
+  bottom: 22%;
+}
+
+/* line 727, ../sass/partials/_page.scss */
+.huxta-vehicle-70 {
+  height: 186px;
+  background-image: url("../img/huxta_vehicle_70_patty.svg");
+  z-index: 65;
+  bottom: 21%;
+}
+
+/* line 734, ../sass/partials/_page.scss */
+.huxta-vehicle-80 {
+  height: 120px;
+  background-image: url("../img/huxta_vehicle_80_pickles.svg");
+  z-index: 60;
+  bottom: 27%;
+}
+
+/* line 741, ../sass/partials/_page.scss */
+.huxta-vehicle-90 {
+  height: 163px;
+  background-image: url("../img/huxta_vehicle_90_ketchup.svg");
+  z-index: 50;
+  bottom: 17%;
+}
+
+/* line 748, ../sass/partials/_page.scss */
+.huxta-vehicle-95 {
+  height: 163px;
+  background-image: url("../img/huxta_vehicle_95_shadow.svg");
+  z-index: 40;
+  bottom: 17%;
+}
+
+/* line 755, ../sass/partials/_page.scss */
+.huxta-vehicle-100 {
+  height: 205px;
+  background-image: url("../img/huxta_vehicle_100_bottombun.png");
+  background-size: 375px 205px;
+  z-index: 30;
+  bottom: 3%;
+}
+
+/* line 763, ../sass/partials/_page.scss */
+.huxta-vehicle-105 {
+  height: 160px;
+  background-image: url("../img/huxta_vehicle_105_shadow.svg");
+  z-index: 20;
+  bottom: 0%;
+}
+
+/* line 770, ../sass/partials/_page.scss */
+.burger:hover, .burger:focus, .burger:active {
+  height: 90%;
+}
+/* line 773, ../sass/partials/_page.scss */
+.burger:hover .shadow-vehicle, .burger:focus .shadow-vehicle, .burger:active .shadow-vehicle {
+  opacity: 0;
+}
+/* line 778, ../sass/partials/_page.scss */
+.burger:hover .marys-vehicle-10, .burger:focus .marys-vehicle-10, .burger:active .marys-vehicle-10 {
+  top: 0%;
+}
+/* line 779, ../sass/partials/_page.scss */
+.burger:hover .marys-vehicle-20, .burger:focus .marys-vehicle-20, .burger:active .marys-vehicle-20 {
+  top: 12.5%;
+}
+/* line 780, ../sass/partials/_page.scss */
+.burger:hover .marys-vehicle-30, .burger:focus .marys-vehicle-30, .burger:active .marys-vehicle-30 {
+  top: 25%;
+}
+/* line 781, ../sass/partials/_page.scss */
+.burger:hover .marys-vehicle-40, .burger:focus .marys-vehicle-40, .burger:active .marys-vehicle-40 {
+  top: 37.5%;
+}
+/* line 782, ../sass/partials/_page.scss */
+.burger:hover .marys-vehicle-50, .burger:focus .marys-vehicle-50, .burger:active .marys-vehicle-50 {
+  bottom: 17%;
+}
+/* line 783, ../sass/partials/_page.scss */
+.burger:hover .marys-vehicle-60, .burger:focus .marys-vehicle-60, .burger:active .marys-vehicle-60 {
+  bottom: 15%;
+}
+/* line 784, ../sass/partials/_page.scss */
+.burger:hover .marys-vehicle-70, .burger:focus .marys-vehicle-70, .burger:active .marys-vehicle-70 {
+  bottom: 4%;
+}
+/* line 785, ../sass/partials/_page.scss */
+.burger:hover .marys-vehicle-80, .burger:focus .marys-vehicle-80, .burger:active .marys-vehicle-80 {
+  bottom: 0;
+}
+/* line 788, ../sass/partials/_page.scss */
+.burger:hover .huxta-vehicle-10, .burger:focus .huxta-vehicle-10, .burger:active .huxta-vehicle-10 {
+  top: 0%;
+}
+/* line 789, ../sass/partials/_page.scss */
+.burger:hover .huxta-vehicle-20, .burger:focus .huxta-vehicle-20, .burger:active .huxta-vehicle-20 {
+  top: 15%;
+}
+/* line 790, ../sass/partials/_page.scss */
+.burger:hover .huxta-vehicle-30, .burger:focus .huxta-vehicle-30, .burger:active .huxta-vehicle-30 {
+  top: 20%;
+}
+/* line 791, ../sass/partials/_page.scss */
+.burger:hover .huxta-vehicle-40, .burger:focus .huxta-vehicle-40, .burger:active .huxta-vehicle-40 {
+  top: 30%;
+}
+/* line 792, ../sass/partials/_page.scss */
+.burger:hover .huxta-vehicle-50, .burger:focus .huxta-vehicle-50, .burger:active .huxta-vehicle-50 {
+  top: 40%;
+}
+/* line 793, ../sass/partials/_page.scss */
+.burger:hover .huxta-vehicle-60, .burger:focus .huxta-vehicle-60, .burger:active .huxta-vehicle-60 {
+  top: 46%;
+}
+/* line 794, ../sass/partials/_page.scss */
+.burger:hover .huxta-vehicle-70, .burger:focus .huxta-vehicle-70, .burger:active .huxta-vehicle-70 {
+  bottom: 24%;
+}
+/* line 795, ../sass/partials/_page.scss */
+.burger:hover .huxta-vehicle-80, .burger:focus .huxta-vehicle-80, .burger:active .huxta-vehicle-80 {
+  bottom: 18%;
+}
+/* line 796, ../sass/partials/_page.scss */
+.burger:hover .huxta-vehicle-90, .burger:focus .huxta-vehicle-90, .burger:active .huxta-vehicle-90 {
+  bottom: 12%;
+}
+/* line 797, ../sass/partials/_page.scss */
+.burger:hover .huxta-vehicle-100, .burger:focus .huxta-vehicle-100, .burger:active .huxta-vehicle-100 {
+  bottom: 2%;
+}
+
+/* line 7, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_helpers.scss */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  *text-indent: -9999px;
+}
+/* line 27, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_helpers.scss */
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+
+/* line 9, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_helpers.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/* line 11, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_helpers.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+/* line 67, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_helpers.scss */
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* line 13, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_helpers.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/* line 93, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_helpers.scss */
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+/* line 98, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_helpers.scss */
+.clearfix:after {
+  clear: both;
+}
+/* line 104, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_helpers.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+@media only screen and (max-width: 568px) {
+  /* Style adjustments for viewports 480px and over go here */
+  /* line 11, ../sass/partials/_media.scss */
+  body, html {
+    min-width: 100%;
+  }
+
+  /* line 16, ../sass/partials/_media.scss */
+  .homepage {
+    overflow: auto;
+    display: block;
+    position: relative;
+  }
+
+  /* line 22, ../sass/partials/_media.scss */
+  .homepage ul {
+    min-height: 100%;
+  }
+  /* line 24, ../sass/partials/_media.scss */
+  .homepage ul li {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    float: none;
+  }
+  /* line 31, ../sass/partials/_media.scss */
+  .homepage ul li img {
+    position: relative;
+    top: -100px;
+    width: 150px;
+  }
+  /* line 38, ../sass/partials/_media.scss */
+  .homepage ul li.one h1 {
+    -webkit-animation: shaky 0.25s infinite;
+    animation: shaky 0.25s infinite;
+  }
+  /* line 43, ../sass/partials/_media.scss */
+  .homepage ul li.two, .homepage ul li.three, .homepage ul li.four {
+    top: 0;
+    left: 0;
+  }
+  /* line 48, ../sass/partials/_media.scss */
+  .homepage ul .rollover {
+    opacity: 1;
+  }
+  /* line 50, ../sass/partials/_media.scss */
+  .homepage ul .rollover .text {
+    top: 20%;
+    left: 50%;
+  }
+
+  /* line 57, ../sass/partials/_media.scss */
+  li.one {
+    position: relative;
+    top: 0;
+    left: 0%;
+    background-color: #ffae00;
+    -webkit-transition: all 0.5s cubic-bezier(0, 0.91, 0.22, 0.97);
+    -moz-transition: all 0.5s cubic-bezier(0, 0.91, 0.22, 0.97);
+    -o-transition: all 0.5s cubic-bezier(0, 0.91, 0.22, 0.97);
+    -ms-transition: all 0.5s cubic-bezier(0, 0.91, 0.22, 0.97);
+    transition: all 0.5s cubic-bezier(0, 0.91, 0.22, 0.97);
+    -webkit-animation: none;
+    -moz-animation: none;
+    -o-animation: none;
+    -ms-animation: none;
+    animation: none;
+  }
+  /* line 65, ../sass/partials/_media.scss */
+  li.one div {
+    display: inline;
+  }
+  /* line 71, ../sass/partials/_media.scss */
+  li.one a {
+    font-size: 1em;
+    text-decoration: none;
+    color: #ffae00;
+    padding: 0.5em 1em;
+  }
+  /* line 79, ../sass/partials/_media.scss */
+  li.one .intro-side-front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    -webkit-transition: all 0.8s cubic-bezier(0, 0.91, 0.22, 0.97);
+    -moz-transition: all 0.8s cubic-bezier(0, 0.91, 0.22, 0.97);
+    -o-transition: all 0.8s cubic-bezier(0, 0.91, 0.22, 0.97);
+    -ms-transition: all 0.8s cubic-bezier(0, 0.91, 0.22, 0.97);
+    transition: all 0.8s cubic-bezier(0, 0.91, 0.22, 0.97);
+  }
+  /* line 88, ../sass/partials/_media.scss */
+  li.one .intro-side-front h1 {
+    -webkit-animation: none;
+    -moz-animation: none;
+    -o-animation: none;
+    -ms-animation: none;
+    animation: none;
+  }
+  /* line 93, ../sass/partials/_media.scss */
+  li.one .intro-side-back {
+    -webkit-transition: all 0.8s cubic-bezier(0, 0.91, 0.22, 0.97);
+    -moz-transition: all 0.8s cubic-bezier(0, 0.91, 0.22, 0.97);
+    -o-transition: all 0.8s cubic-bezier(0, 0.91, 0.22, 0.97);
+    -ms-transition: all 0.8s cubic-bezier(0, 0.91, 0.22, 0.97);
+    transition: all 0.8s cubic-bezier(0, 0.91, 0.22, 0.97);
+  }
+  /* line 95, ../sass/partials/_media.scss */
+  li.one .intro-side-back div {
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  /* line 101, ../sass/partials/_media.scss */
+  li.one {
+    -webkit-animation: none;
+    -moz-animation: none;
+    -o-animation: none;
+    -ms-animation: none;
+    animation: none;
+  }
+  /* line 103, ../sass/partials/_media.scss */
+  li.one .intro-side-back {
+    display: none;
+  }
+
+  /* line 108, ../sass/partials/_media.scss */
+  li.two {
+    -webkit-animation: none;
+    -moz-animation: none;
+    -o-animation: none;
+    -ms-animation: none;
+    animation: none;
+  }
+
+  /* line 109, ../sass/partials/_media.scss */
+  li.three {
+    -webkit-animation: none;
+    -moz-animation: none;
+    -o-animation: none;
+    -ms-animation: none;
+    animation: none;
+  }
+
+  /* line 110, ../sass/partials/_media.scss */
+  li.four {
+    -webkit-animation: none;
+    -moz-animation: none;
+    -o-animation: none;
+    -ms-animation: none;
+    animation: none;
+  }
+
+  /* line 113, ../sass/partials/_media.scss */
+  .homepage ul li:hover img {
+    width: 150px;
+    opacity: 1;
+    border: 0;
+  }
+  /* line 119, ../sass/partials/_media.scss */
+  .homepage ul li:hover .rollover {
+    border: 0;
+    opacity: 1;
+  }
+  /* line 123, ../sass/partials/_media.scss */
+  .homepage ul li:hover .rollover h3 {
+    -webkit-animation: none;
+    -moz-animation: none;
+    -o-animation: none;
+    -ms-animation: none;
+    animation: none;
+  }
+  /* line 124, ../sass/partials/_media.scss */
+  .homepage ul li:hover .rollover p {
+    -webkit-animation: none;
+    -moz-animation: none;
+    -o-animation: none;
+    -ms-animation: none;
+    animation: none;
+  }
+
+  /* line 129, ../sass/partials/_media.scss */
+  .homepage ul li.one:hover {
+    background-color: #ffae00;
+  }
+  /* line 131, ../sass/partials/_media.scss */
+  .homepage ul li.one:hover .intro-side-front {
+    left: 0%;
+  }
+
+  /* line 139, ../sass/partials/_media.scss */
+  .burger-container {
+    overflow: auto;
+  }
+
+  /* line 143, ../sass/partials/_media.scss */
+  .burger {
+    position: relative;
+    top: 0%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -30%);
+    -moz-transform: translate(-50%, -30%);
+    -o-transform: translate(-50%, -30%);
+    -ms-transform: translate(-50%, -30%);
+    transform: translate(-50%, -30%);
+    width: 200px;
+  }
+
+  /* line 152, ../sass/partials/_media.scss */
+  .burger-container .burger div {
+    background-size: 100%;
+  }
+  /* line 154, ../sass/partials/_media.scss */
+  .burger-container .burger div p {
+    display: none;
+  }
+
+  /* line 160, ../sass/partials/_media.scss */
+  .burger-container .burger:hover .burger-vehicle:hover {
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+
+  /* line 168, ../sass/partials/_media.scss */
+  .churburger .burger,
+  .churburger .burger:hover,
+  .churburger .burger:focus,
+  .churburger .burger:active {
+    height: 225px;
+  }
+
+  /* line 174, ../sass/partials/_media.scss */
+  .marys .burger,
+  .marys .burger:hover,
+  .marys .burger:focus,
+  .marys .burger:active {
+    height: 168px;
+  }
+
+  /* line 180, ../sass/partials/_media.scss */
+  .huxtaburger .burger,
+  .huxtaburger .burger:hover,
+  .huxtaburger .burger:focus,
+  .huxtaburger .burger:active {
+    height: 199px;
+  }
+
+  /* line 183, ../sass/partials/_media.scss */
+  .chur-vehicle-10 {
+    height: 117px;
+  }
+
+  /* line 184, ../sass/partials/_media.scss */
+  .chur-vehicle-20 {
+    height: 88px;
+  }
+
+  /* line 185, ../sass/partials/_media.scss */
+  .chur-vehicle-25 {
+    height: 90px;
+  }
+
+  /* line 186, ../sass/partials/_media.scss */
+  .chur-vehicle-30 {
+    height: 88px;
+  }
+
+  /* line 187, ../sass/partials/_media.scss */
+  .chur-vehicle-40 {
+    height: 94px;
+  }
+
+  /* line 188, ../sass/partials/_media.scss */
+  .chur-vehicle-50 {
+    height: 108px;
+  }
+
+  /* line 189, ../sass/partials/_media.scss */
+  .chur-vehicle-60 {
+    height: 82px;
+  }
+
+  /* line 190, ../sass/partials/_media.scss */
+  .chur-vehicle-70 {
+    height: 117px;
+  }
+
+  /* line 191, ../sass/partials/_media.scss */
+  .chur-vehicle-80 {
+    height: 89px;
+  }
+
+  /* line 192, ../sass/partials/_media.scss */
+  .marys-vehicle-10 {
+    height: 105px;
+  }
+
+  /* line 193, ../sass/partials/_media.scss */
+  .marys-vehicle-20 {
+    height: 79px;
+  }
+
+  /* line 194, ../sass/partials/_media.scss */
+  .marys-vehicle-30 {
+    height: 63px;
+  }
+
+  /* line 195, ../sass/partials/_media.scss */
+  .marys-vehicle-40 {
+    height: 103px;
+  }
+
+  /* line 196, ../sass/partials/_media.scss */
+  .marys-vehicle-50 {
+    height: 126px;
+  }
+
+  /* line 197, ../sass/partials/_media.scss */
+  .marys-vehicle-60 {
+    height: 50px;
+  }
+
+  /* line 198, ../sass/partials/_media.scss */
+  .marys-vehicle-70 {
+    height: 132px;
+  }
+
+  /* line 199, ../sass/partials/_media.scss */
+  .marys-vehicle-80 {
+    height: 68px;
+  }
+
+  /* line 200, ../sass/partials/_media.scss */
+  .huxta-vehicle-10 {
+    height: 111px;
+  }
+
+  /* line 201, ../sass/partials/_media.scss */
+  .huxta-vehicle-20 {
+    height: 74px;
+  }
+
+  /* line 202, ../sass/partials/_media.scss */
+  .huxta-vehicle-30 {
+    height: 92px;
+  }
+
+  /* line 203, ../sass/partials/_media.scss */
+  .huxta-vehicle-40 {
+    height: 84px;
+  }
+
+  /* line 204, ../sass/partials/_media.scss */
+  .huxta-vehicle-50 {
+    height: 84px;
+  }
+
+  /* line 205, ../sass/partials/_media.scss */
+  .huxta-vehicle-60 {
+    height: 95px;
+  }
+
+  /* line 206, ../sass/partials/_media.scss */
+  .huxta-vehicle-65 {
+    height: 84px;
+  }
+
+  /* line 207, ../sass/partials/_media.scss */
+  .huxta-vehicle-70 {
+    height: 98px;
+  }
+
+  /* line 208, ../sass/partials/_media.scss */
+  .huxta-vehicle-80 {
+    height: 63px;
+  }
+
+  /* line 209, ../sass/partials/_media.scss */
+  .huxta-vehicle-90 {
+    height: 86px;
+  }
+
+  /* line 210, ../sass/partials/_media.scss */
+  .huxta-vehicle-95 {
+    height: 86px;
+  }
+
+  /* line 211, ../sass/partials/_media.scss */
+  .huxta-vehicle-100 {
+    height: 107px;
+    background-size: 100% 100%;
+  }
+
+  /* line 212, ../sass/partials/_media.scss */
+  .huxta-vehicle-105 {
+    height: 84px;
+  }
+
+  /* line 214, ../sass/partials/_media.scss */
+  .burger:hover, .burger:focus, .burger:active {
+    height: 800px;
+  }
+
+  /* line 229, ../sass/partials/_media.scss */
+  .churburger .exploder,
+  .churburger .exploder:hover,
+  .churburger .exploder:active,
+  .marys .exploder,
+  .marys .exploder:hover,
+  .marys .exploder:active,
+  .huxtaburger .exploder,
+  .huxtaburger .exploder:hover,
+  .huxtaburger .exploder:active {
+    top: 50px;
+    height: 400px;
+  }
+  /* line 233, ../sass/partials/_media.scss */
+  .churburger .exploder .shadow-vehicle,
+  .churburger .exploder:hover .shadow-vehicle,
+  .churburger .exploder:active .shadow-vehicle,
+  .marys .exploder .shadow-vehicle,
+  .marys .exploder:hover .shadow-vehicle,
+  .marys .exploder:active .shadow-vehicle,
+  .huxtaburger .exploder .shadow-vehicle,
+  .huxtaburger .exploder:hover .shadow-vehicle,
+  .huxtaburger .exploder:active .shadow-vehicle {
+    opacity: 0;
+  }
+  /* line 238, ../sass/partials/_media.scss */
+  .churburger .exploder .marys-vehicle-10,
+  .churburger .exploder:hover .marys-vehicle-10,
+  .churburger .exploder:active .marys-vehicle-10,
+  .marys .exploder .marys-vehicle-10,
+  .marys .exploder:hover .marys-vehicle-10,
+  .marys .exploder:active .marys-vehicle-10,
+  .huxtaburger .exploder .marys-vehicle-10,
+  .huxtaburger .exploder:hover .marys-vehicle-10,
+  .huxtaburger .exploder:active .marys-vehicle-10 {
+    top: 0%;
+  }
+  /* line 239, ../sass/partials/_media.scss */
+  .churburger .exploder .marys-vehicle-20,
+  .churburger .exploder:hover .marys-vehicle-20,
+  .churburger .exploder:active .marys-vehicle-20,
+  .marys .exploder .marys-vehicle-20,
+  .marys .exploder:hover .marys-vehicle-20,
+  .marys .exploder:active .marys-vehicle-20,
+  .huxtaburger .exploder .marys-vehicle-20,
+  .huxtaburger .exploder:hover .marys-vehicle-20,
+  .huxtaburger .exploder:active .marys-vehicle-20 {
+    top: 12.5%;
+  }
+  /* line 240, ../sass/partials/_media.scss */
+  .churburger .exploder .marys-vehicle-30,
+  .churburger .exploder:hover .marys-vehicle-30,
+  .churburger .exploder:active .marys-vehicle-30,
+  .marys .exploder .marys-vehicle-30,
+  .marys .exploder:hover .marys-vehicle-30,
+  .marys .exploder:active .marys-vehicle-30,
+  .huxtaburger .exploder .marys-vehicle-30,
+  .huxtaburger .exploder:hover .marys-vehicle-30,
+  .huxtaburger .exploder:active .marys-vehicle-30 {
+    top: 25%;
+  }
+  /* line 241, ../sass/partials/_media.scss */
+  .churburger .exploder .marys-vehicle-40,
+  .churburger .exploder:hover .marys-vehicle-40,
+  .churburger .exploder:active .marys-vehicle-40,
+  .marys .exploder .marys-vehicle-40,
+  .marys .exploder:hover .marys-vehicle-40,
+  .marys .exploder:active .marys-vehicle-40,
+  .huxtaburger .exploder .marys-vehicle-40,
+  .huxtaburger .exploder:hover .marys-vehicle-40,
+  .huxtaburger .exploder:active .marys-vehicle-40 {
+    top: 37.5%;
+  }
+  /* line 242, ../sass/partials/_media.scss */
+  .churburger .exploder .marys-vehicle-50,
+  .churburger .exploder:hover .marys-vehicle-50,
+  .churburger .exploder:active .marys-vehicle-50,
+  .marys .exploder .marys-vehicle-50,
+  .marys .exploder:hover .marys-vehicle-50,
+  .marys .exploder:active .marys-vehicle-50,
+  .huxtaburger .exploder .marys-vehicle-50,
+  .huxtaburger .exploder:hover .marys-vehicle-50,
+  .huxtaburger .exploder:active .marys-vehicle-50 {
+    bottom: 17%;
+  }
+  /* line 243, ../sass/partials/_media.scss */
+  .churburger .exploder .marys-vehicle-60,
+  .churburger .exploder:hover .marys-vehicle-60,
+  .churburger .exploder:active .marys-vehicle-60,
+  .marys .exploder .marys-vehicle-60,
+  .marys .exploder:hover .marys-vehicle-60,
+  .marys .exploder:active .marys-vehicle-60,
+  .huxtaburger .exploder .marys-vehicle-60,
+  .huxtaburger .exploder:hover .marys-vehicle-60,
+  .huxtaburger .exploder:active .marys-vehicle-60 {
+    bottom: 15%;
+  }
+  /* line 244, ../sass/partials/_media.scss */
+  .churburger .exploder .marys-vehicle-70,
+  .churburger .exploder:hover .marys-vehicle-70,
+  .churburger .exploder:active .marys-vehicle-70,
+  .marys .exploder .marys-vehicle-70,
+  .marys .exploder:hover .marys-vehicle-70,
+  .marys .exploder:active .marys-vehicle-70,
+  .huxtaburger .exploder .marys-vehicle-70,
+  .huxtaburger .exploder:hover .marys-vehicle-70,
+  .huxtaburger .exploder:active .marys-vehicle-70 {
+    bottom: 4%;
+  }
+  /* line 245, ../sass/partials/_media.scss */
+  .churburger .exploder .marys-vehicle-80,
+  .churburger .exploder:hover .marys-vehicle-80,
+  .churburger .exploder:active .marys-vehicle-80,
+  .marys .exploder .marys-vehicle-80,
+  .marys .exploder:hover .marys-vehicle-80,
+  .marys .exploder:active .marys-vehicle-80,
+  .huxtaburger .exploder .marys-vehicle-80,
+  .huxtaburger .exploder:hover .marys-vehicle-80,
+  .huxtaburger .exploder:active .marys-vehicle-80 {
+    bottom: 0;
+  }
+  /* line 248, ../sass/partials/_media.scss */
+  .churburger .exploder .huxta-vehicle-10,
+  .churburger .exploder:hover .huxta-vehicle-10,
+  .churburger .exploder:active .huxta-vehicle-10,
+  .marys .exploder .huxta-vehicle-10,
+  .marys .exploder:hover .huxta-vehicle-10,
+  .marys .exploder:active .huxta-vehicle-10,
+  .huxtaburger .exploder .huxta-vehicle-10,
+  .huxtaburger .exploder:hover .huxta-vehicle-10,
+  .huxtaburger .exploder:active .huxta-vehicle-10 {
+    top: 0%;
+  }
+  /* line 249, ../sass/partials/_media.scss */
+  .churburger .exploder .huxta-vehicle-20,
+  .churburger .exploder:hover .huxta-vehicle-20,
+  .churburger .exploder:active .huxta-vehicle-20,
+  .marys .exploder .huxta-vehicle-20,
+  .marys .exploder:hover .huxta-vehicle-20,
+  .marys .exploder:active .huxta-vehicle-20,
+  .huxtaburger .exploder .huxta-vehicle-20,
+  .huxtaburger .exploder:hover .huxta-vehicle-20,
+  .huxtaburger .exploder:active .huxta-vehicle-20 {
+    top: 15%;
+  }
+  /* line 250, ../sass/partials/_media.scss */
+  .churburger .exploder .huxta-vehicle-30,
+  .churburger .exploder:hover .huxta-vehicle-30,
+  .churburger .exploder:active .huxta-vehicle-30,
+  .marys .exploder .huxta-vehicle-30,
+  .marys .exploder:hover .huxta-vehicle-30,
+  .marys .exploder:active .huxta-vehicle-30,
+  .huxtaburger .exploder .huxta-vehicle-30,
+  .huxtaburger .exploder:hover .huxta-vehicle-30,
+  .huxtaburger .exploder:active .huxta-vehicle-30 {
+    top: 20%;
+  }
+  /* line 251, ../sass/partials/_media.scss */
+  .churburger .exploder .huxta-vehicle-40,
+  .churburger .exploder:hover .huxta-vehicle-40,
+  .churburger .exploder:active .huxta-vehicle-40,
+  .marys .exploder .huxta-vehicle-40,
+  .marys .exploder:hover .huxta-vehicle-40,
+  .marys .exploder:active .huxta-vehicle-40,
+  .huxtaburger .exploder .huxta-vehicle-40,
+  .huxtaburger .exploder:hover .huxta-vehicle-40,
+  .huxtaburger .exploder:active .huxta-vehicle-40 {
+    top: 30%;
+  }
+  /* line 252, ../sass/partials/_media.scss */
+  .churburger .exploder .huxta-vehicle-50,
+  .churburger .exploder:hover .huxta-vehicle-50,
+  .churburger .exploder:active .huxta-vehicle-50,
+  .marys .exploder .huxta-vehicle-50,
+  .marys .exploder:hover .huxta-vehicle-50,
+  .marys .exploder:active .huxta-vehicle-50,
+  .huxtaburger .exploder .huxta-vehicle-50,
+  .huxtaburger .exploder:hover .huxta-vehicle-50,
+  .huxtaburger .exploder:active .huxta-vehicle-50 {
+    top: 40%;
+  }
+  /* line 253, ../sass/partials/_media.scss */
+  .churburger .exploder .huxta-vehicle-60,
+  .churburger .exploder:hover .huxta-vehicle-60,
+  .churburger .exploder:active .huxta-vehicle-60,
+  .marys .exploder .huxta-vehicle-60,
+  .marys .exploder:hover .huxta-vehicle-60,
+  .marys .exploder:active .huxta-vehicle-60,
+  .huxtaburger .exploder .huxta-vehicle-60,
+  .huxtaburger .exploder:hover .huxta-vehicle-60,
+  .huxtaburger .exploder:active .huxta-vehicle-60 {
+    top: 46%;
+  }
+  /* line 254, ../sass/partials/_media.scss */
+  .churburger .exploder .huxta-vehicle-70,
+  .churburger .exploder:hover .huxta-vehicle-70,
+  .churburger .exploder:active .huxta-vehicle-70,
+  .marys .exploder .huxta-vehicle-70,
+  .marys .exploder:hover .huxta-vehicle-70,
+  .marys .exploder:active .huxta-vehicle-70,
+  .huxtaburger .exploder .huxta-vehicle-70,
+  .huxtaburger .exploder:hover .huxta-vehicle-70,
+  .huxtaburger .exploder:active .huxta-vehicle-70 {
+    bottom: 24%;
+  }
+  /* line 255, ../sass/partials/_media.scss */
+  .churburger .exploder .huxta-vehicle-80,
+  .churburger .exploder:hover .huxta-vehicle-80,
+  .churburger .exploder:active .huxta-vehicle-80,
+  .marys .exploder .huxta-vehicle-80,
+  .marys .exploder:hover .huxta-vehicle-80,
+  .marys .exploder:active .huxta-vehicle-80,
+  .huxtaburger .exploder .huxta-vehicle-80,
+  .huxtaburger .exploder:hover .huxta-vehicle-80,
+  .huxtaburger .exploder:active .huxta-vehicle-80 {
+    bottom: 18%;
+  }
+  /* line 256, ../sass/partials/_media.scss */
+  .churburger .exploder .huxta-vehicle-90,
+  .churburger .exploder:hover .huxta-vehicle-90,
+  .churburger .exploder:active .huxta-vehicle-90,
+  .marys .exploder .huxta-vehicle-90,
+  .marys .exploder:hover .huxta-vehicle-90,
+  .marys .exploder:active .huxta-vehicle-90,
+  .huxtaburger .exploder .huxta-vehicle-90,
+  .huxtaburger .exploder:hover .huxta-vehicle-90,
+  .huxtaburger .exploder:active .huxta-vehicle-90 {
+    bottom: 12%;
+  }
+  /* line 257, ../sass/partials/_media.scss */
+  .churburger .exploder .huxta-vehicle-100,
+  .churburger .exploder:hover .huxta-vehicle-100,
+  .churburger .exploder:active .huxta-vehicle-100,
+  .marys .exploder .huxta-vehicle-100,
+  .marys .exploder:hover .huxta-vehicle-100,
+  .marys .exploder:active .huxta-vehicle-100,
+  .huxtaburger .exploder .huxta-vehicle-100,
+  .huxtaburger .exploder:hover .huxta-vehicle-100,
+  .huxtaburger .exploder:active .huxta-vehicle-100 {
+    bottom: 2%;
+  }
+
+  /* line 263, ../sass/partials/_media.scss */
+  #exploder {
+    display: block;
+  }
+
+  /* line 267, ../sass/partials/_media.scss */
+  .burger-container .text {
+    position: relative;
+    padding: 1.4em;
+    width: 100%;
+    height: 250px;
+  }
+  /* line 273, ../sass/partials/_media.scss */
+  .burger-container .text h3 {
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
+  }
+  /* line 280, ../sass/partials/_media.scss */
+  .burger-container .text h4 {
+    font-size: 0.5em;
+    padding: 0;
+    margin: 0;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
+  }
+  /* line 287, ../sass/partials/_media.scss */
+  .burger-container .text p {
+    font-size: 1.1em;
+    margin: 0.5em 0 1em;
+  }
+  /* line 293, ../sass/partials/_media.scss */
+  .burger-container .text a {
+    display: inline-block;
+    background-color: transparent;
+    width: 100%;
+    padding: 1em;
+    margin: 0 0 1.1em;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  /* line 307, ../sass/partials/_media.scss */
+  .burger-container .text .burger-container .text a.active {
+    color: black;
+    background-color: white;
+  }
+  /* line 312, ../sass/partials/_media.scss */
+  .burger-container .text .logo-compliments, .burger-container .text .logo-okayboss {
+    display: none;
+  }
+  /* line 316, ../sass/partials/_media.scss */
+  .burger-container .text #exploder {
+    position: absolute;
+    top: 16px;
+    right: 14px;
+    width: 90px;
+    height: 50px;
+    color: white;
+    border: 3px solid white;
+    font-size: 1em;
+    border-radius: 1em;
+  }
+  /* line 327, ../sass/partials/_media.scss */
+  .burger-container .text #exploder p {
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+  }
+  /* line 339, ../sass/partials/_media.scss */
+  .burger-container .text .active {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  /* line 344, ../sass/partials/_media.scss */
+  .burger-container .text .back {
+    display: none;
+    position: relative;
+    bottom: 0;
+    left: 0;
+  }
+
+  /* line 360, ../sass/partials/_media.scss */
+  .backtotop {
+    display: block;
+  }
+
+  /* line 364, ../sass/partials/_media.scss */
+  footer {
+    -webkit-animation: none;
+    -moz-animation: none;
+    -o-animation: none;
+    -ms-animation: none;
+    animation: none;
+    display: block;
+    position: relative;
+    width: 100%;
+    max-height: 100%;
+    background-color: #192128;
+    z-index: 1000;
+    padding: 1em;
+    font-size: 1.4em;
+    font-weight: 100;
+    line-height: 1.5em;
+  }
+  /* line 381, ../sass/partials/_media.scss */
+  footer p {
+    display: block;
+    color: white;
+    text-align: left;
+  }
+  /* line 388, ../sass/partials/_media.scss */
+  footer a {
+    font-weight: 900;
+    display: block;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 0.8em;
+    margin: 0;
+    text-decoration: none;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 0.3em;
+    margin-bottom: 0.7em;
+  }
+  /* line 405, ../sass/partials/_media.scss */
+  footer .share-twitter {
+    top: 0;
+    left: 0;
+    display: block;
+    position: relative;
+  }
+  /* line 412, ../sass/partials/_media.scss */
+  footer .share-facebook {
+    top: 0;
+    left: 0;
+    display: block;
+    position: relative;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* Style adjustments for viewports 768px and over go here */
+}
+@media print {
+  /* line 11, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_media.scss */
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* line 19, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_media.scss */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 23, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_media.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 27, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_media.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /* line 37, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_media.scss */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  /* line 42, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_media.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /* line 47, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_media.scss */
+  thead {
+    display: table-header-group;
+  }
+
+  /* line 52, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_media.scss */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  /* line 56, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_media.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+}
+
+  /* line 66, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_media.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 72, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-h5bp-0.1.2/stylesheets/h5bp/_media.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+
+  /* Style adjustments for print go here */
+}
