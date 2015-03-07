@@ -1,0 +1,74 @@
+/* -----------------------------------------------------------------------------------------------------------
+								   Stylesheet Table of Contents
+
+								   01 - Tags
+								   02 - Selectors
+								   03 - Main Menu/Menu Swap
+								        03a - Dark Menu
+								        03a - Light Menu
+								   04 - Media Queries
+								   05 - CSS Animation
+								   06 - Full Screen Background Video (HTML 5)
+-------------------------------------------------------------------------------------------------------------*/
+
+/* -----------------------------------------
+   01 - Body
+-------------------------------------------*/
+
+div#hamburgerler { background-color: #ccc; padding: 5px 10px; }
+
+body { font-family: "ff-scala-sans-web", 'Oswald', sans-serif; font-weight: 400; min-height: 100%; min-width: 1024px; width: 100%; margin: 0; padding: 0; }
+
+h2 { color: #fff; font-family: "ff-din-web", 'Oswald', sans-serif; font-size: 9rem; font-weight: 700; margin: 0px; letter-spacing: -2px; }
+
+h2, p { text-align: center; }
+
+div#hero-01 { background: #333; height: 1000px; padding: 20% 10% 5%; /*text-shadow: 0 0 3px #000, 0 0 5px #000*/ }
+
+div#hero-02 { background: #DDD; padding: 10% 5%; transition: all 0.25s ease;}
+
+div#logo-container img { float: left; max-width: 175px; }
+
+/* -----------------------------------------
+   02 - Selectors 
+-------------------------------------------*/
+
+/* -----------------------------------------
+   03 - Main Menu
+-------------------------------------------*/
+
+nav { background-color: transparent; color: #fff; transition: all 0.25s ease; padding: 1em; position: fixed; top: 0px; width: 100%; }
+
+nav.past-swap { background-color: #FCB813; color: #333; }
+
+#swap { }
+
+/* ------------- 03a Dark Menu -------------- */
+
+
+
+/* ------------- 03b Light Menu -------------- */
+
+/*div#logo-container { padding: 2%; width: 100%; position: fixed; top: 0;}
+
+
+
+div#logo-container.light { background-color: #FCB813; /* display: none; Metro Gold Band w/Form Field  }
+
+nav#menu.light { background-color: #FCB813; height: 80px; top: 0px; z-index: 1; }*/
+
+/*#select { background: #FCB813; border: 1px solid #000; color: #000; float: right; font-size: 1.3rem; font-family: "ff-din-web", sans-serif; height: 50px; margin-right: 3%; }
+
+span.hamburger-light { font-size: 6rem; line-height: 0.5; position: absolute; right: 5%; }*/
+
+/* -----------------------------------------
+   04 - Media Queries 
+-------------------------------------------*/
+
+/* -----------------------------------------
+   05 - CSS Animation
+-------------------------------------------*/
+
+/* -----------------------------------------
+   06 - Full Screen Background Video
+-------------------------------------------*/

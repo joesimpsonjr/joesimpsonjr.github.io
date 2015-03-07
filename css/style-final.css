@@ -1,0 +1,104 @@
+
+
+/* -----------------------------------------
+   05 - Animation
+-------------------------------------------*/
+
+body, html {
+  min-height: 100%;
+  min-width: 1425px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f90000;
+} /* what does this do? */
+
+.lightrail {
+  background-color: #7A7A7A;
+}
+
+.lightrail .vehicle {
+  height: 1038px;
+}
+
+.vehicle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1425px;
+  z-index: 100;
+}
+
+
+.vehicle-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  clear: both;
+  color: white;
+}
+
+.vehicle-container .vehicle div {
+  position: absolute;
+  display: block;
+  width: 100%;
+  /* -webkit-transition: all 1s cubic bezier(0, 0.91, 0.22, 0.97);
+  -moz-transition: all 1s cubic bezier(0, 0.91, 0.22, 0.97);
+  -ms-transition: all 1s cubic bezier(0, 0.91, 0.22, 0.97);
+  transition: all 1s cubic bezier(0, 0.91, 0.22, 0.97); */
+} /* layers the images on top of each other and animates the container onto the stage */
+
+/* Vehicle ------------------------------- */
+
+.lrlayer-01 {
+	background-image: url("../images/layer-01.svg");
+	/*background-repeat: no-repeat;*/
+	height: 487px; /* 386(w) x 487(h) 
+	left: 235px;
+	top: -15px;*/
+	z-index: 100;
+} 
+
+.lrlayer-02 {
+	background-image: url("../images/layer-02.svg");
+	/*background-repeat: no-repeat;*/
+	height: 672px; /* 686(w) x 672(h)
+	left: 248px;
+	top: 5px; */
+	z-index: 80;
+} 
+
+.lrlayer-03 {
+	background-image: url("../images/layer-03.svg");
+	/*background-repeat: no-repeat;*/
+ 	height: 206px; /* 424(w) x 206(h) 
+	left: 220px;
+	top: -43px;*/
+	z-index: 60;
+}
+
+.lrlayer-04 {
+	background-image: url("../images/layer-04.svg");
+	/*background-repeat: no-repeat;*/
+	height: 653px; /* 702(w) x 653(h)
+	left: 245px;
+	top: 0px; */
+	z-index: 40;
+}
+
+.lrlayer-05 {
+	background-image: url("../images/layer-05.svg");
+	/*background-repeat: no-repeat;*/
+	height: 1038px; /* 1425(w) x 1038(h);
+	left: 248px;
+	top: 0px; */
+	z-index: 20;
+
+	/* 1425(w) x 1038(h) */
+}
+

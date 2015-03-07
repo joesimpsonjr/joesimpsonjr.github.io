@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name='viewport' content='width=device-width, initial-scale=1.0'>	
+
+	<title>GA FEWD12 | Metro Vehicle &amp; Route Feature Interactive</title>
+
+	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script><!-- Initializes jQuery -->	
+    <script src="js/parallax.js"></script><!-- Simple Parallax Scrolling jQuery Plugin @ http:// -->
+    <script src="js/main.js"></script><!-- My JavaScript calls -->
+	<script src="//use.typekit.net/his3nwi.js"></script><!-- Metro Brand Fonts via Typekit/Adobe --> 
+	<script>try{Typekit.load();}catch(e){}</script>
+
+    <link rel="shortcut icon" href="http://metro.net/static/favicon.ico"><!-- Metro Favorites Icon -->
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+	<link href="css/normalize.css" rel="stylesheet">
+
+	<!--[if lt IE 9]>
+	<script>
+	document.createElement('video');
+	</script>
+	<![endif]-->
+
+</head>
+<body>
+	<div id="container">
+		<nav id="menu" class="clearfix"><!-- Hidden menu (Google Drive sample) that shows once you scroll off of parallax/first image -->
+			<div id="logo-container" class="light">
+				<a href="/"><img src="images/logo_metro_175x50.png" alt="Metro Home"></a>
+				<span class="hamburger-light">&equiv;</span><!-- Hamburger menu image; for tablet and mobile presentations -->
+				<div id="vehicle-form"><!-- Large type, styled drop-down (GA Gallery Sample) -->
+					<form method="get" action="neo.htm">
+							<select name="select" id="select">
+							  <option value="">Select Vehicle</option>
+							  <option class="more-select" value="kinkisharayo">Kinkisharayo P3010</option>
+							  <option class="more-select" value="anasladobreda">Ansaldo-Breda P2550</option>
+							  <option class="more-select" value="nabi">North American Bus Industries 60-BRT</option>
+							</select>
+					</form>
+				</div>		
+			</div>	
+		</nav>
+		<section id="content-container">
+			<!--<div class="parallax-window" data-parallax="scroll" data-image-src="images/feature2x.jpg">-->
+			<div id="hero-01">
+				<h2 id="swap">C&#8217;mon, Let&#8217;s Go.</h2>
+				<p>Metro has a fleet of <span id="extra-umph">over 1,200 vehicles</span> in service, covering over 35,000 miles across Los Angeles from Long Beach to Downtown to Malibu.</p> 
+
+				<div id="neo" ><!--Link to interactive; pop-up effect to view interactive (Parallax code page sample) -->
+					<a href="neo.htm" class="animation-jump">Go to Vehicles</a>
+					<p><a href="#rider" class="jump-link"><img src="images/arrow_down_32x32.png" alt="Arrow"></a></p><!--Google Drive style animation? -->
+				</div>
+			</div>
+			<div id="hero-02"><!-- Foothill Extension map and information -->
+				<a name="rider"></a><h2>Eastbound.</h2>
+				<p>The Metro Gold Line Foothill Extension, opening in 2016, will extend the existing Gold Line east from Pasadena. </br>The first phase will  <span id="extra-umph">travel more than 11 miles</span> from Sierra Madre Villa Station, with stations in the cities of Arcadia, Monrovia, Duarte, Irwindale and Azusa.</p>
+			</div>
+		</section>
+
+	</div>	
+</body>
+</html>

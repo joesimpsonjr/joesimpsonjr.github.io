@@ -1,0 +1,33 @@
+/* Animation Basics */
+
+body { background: #333;}
+
+.wrapper { 
+
+@-webkit-keyframes effect { -webkit-transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750); }
+@-moz-keyframes effect { -moz-transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750); }
+@-o-keyframes effect { -o-transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750); }
+@-keyframes effect { transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);/*-webkit-perspective: 1000px;*/ }
+
+/*margin: 2em auto; width: 800px; position: relative; -webkit-animation-name:roll-in; -webkit-animation-duration:1s; -webkit-animation-timing-function: ease-out; -webkit-animation-iteration-count: 1; -webkit-animation-fill-mode: both;}*/
+
+.train { width: 800px; height: 600px; float: left; /*margin: .5em; -webkit-transform-origin: top left; -webkit-animation:hinge .5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1 normal forwards;} */
+
+
+ /* linear */ }
+
+
+
+/*@-webkit-keyframes hinge { from{-webkit-transform:rotateY(90deg);} to{-webkit-transform:rotateY(0deg);}} /* use hinge effect for pop-up windows */
+
+
+
+ /* position: relative; top: -570px; right: 0px; }
+
+@-webkit-keyframes roll-in { 0% {-webkit-transform: translateY(0px); opacity: 0;} 100% {-webkit-transform: translateY(570px); opacity:1;} } /* Animation top to bottom 
+
+@-moz-keyframes roll-in { 0% {-moz-transform: translateY(0px); opacity: 0;} 100% {-moz-transform: translateY(570px); opacity:1;} } 
+
+@-o-keyframes roll-in { 0% {-o-transform: translateY(0px); opacity: 0;} 100% {-o-transform: translateY(570px); opacity:1;} } 
+
+@-keyframes roll-in { 0% {transform: translateY(0px); opacity: 0;} 100% {transform: translateY(570px); opacity:1;} } 
