@@ -1,3 +1,29 @@
+body, html {
+  min-height: 100%;
+  min-width: 1425px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #FCB813;
+} /* what does this do? */
+
+body { font-family: "ff-scala-sans-web", 'Oswald', sans-serif; font-weight: 400; }
+
+/* -----------------------------------------
+   02 - Menu
+-------------------------------------------*/
+
+nav#menu {
+  position: relative;
+  width: 100%;
+  padding: 2% 3%;
+  height: 80px;
+}
+
+a { text-decoration: none; color: rgb(252, 184, 19); }
+
+a:hover { color: #FEFDC5; }
+
 div#logo-container {
   width: 100%;
 }
@@ -8,12 +34,17 @@ div#logo-container img {
 
 div#vehicle-menu {
   float: right;
-  width: 50%;
+  padding-right: 3%;
+  padding-top: 12px;
+  width: 35%;
 }
 
 div#vehicle-menu ul {
   list-style: none;
   display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 div#vehicle-menu li {
@@ -21,18 +52,13 @@ div#vehicle-menu li {
   float: left;
 } /* floats menu to the left of the logo */
 
+section {
+  display: block;
+}
+
 /* -----------------------------------------
    05 - Animation
 -------------------------------------------*/
-
-body, html {
-  min-height: 100%;
-  min-width: 1425px;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  background-color: #FCB813;
-} /* what does this do? */
 
 .lightrail {
   background-color: #7A7A7A;
