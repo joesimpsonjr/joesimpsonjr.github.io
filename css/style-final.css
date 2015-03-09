@@ -1,10 +1,10 @@
 body, html {
   min-height: 100%;
-  min-width: 1425px;
+  min-width: 1024px;
   width: 100%;
   margin: 0;
   padding: 0;
-  background-color: #FCB813;
+  background-color: #FCB813; /* Metro Gold */
 } /* what does this do? */
 
 body { font-family: "ff-scala-sans-web", 'Oswald', sans-serif; font-weight: 400; }
@@ -14,15 +14,21 @@ body { font-family: "ff-scala-sans-web", 'Oswald', sans-serif; font-weight: 400;
 -------------------------------------------*/
 
 nav#menu {
-  position: relative;
-  width: 100%;
-  padding: 2% 3%;
   height: 80px;
+  padding: 2% 3%;
+  position: absolute;
+  text-transform: uppercase;
+  width: 100%;
+  z-index: 200;
+}
+
+nav#menu img {
+  float: left;
 }
 
 a { text-decoration: none; color: rgb(252, 184, 19); }
 
-a:hover { color: #FEFDC5; }
+a:hover { color: #FEFDC5; }  /* Metro Gold, Hover */
 
 div#logo-container {
   width: 100%;
@@ -35,8 +41,8 @@ div#logo-container img {
 div#vehicle-menu {
   float: right;
   padding-right: 3%;
-  padding-top: 12px;
-  width: 35%;
+  padding-top: 6px;
+  width: 40%;
 }
 
 div#vehicle-menu ul {
@@ -49,12 +55,18 @@ div#vehicle-menu ul {
 
 div#vehicle-menu li {
   padding: 3%;
-  float: left;
+  float: right;
 } /* floats menu to the left of the logo */
 
 section {
   display: block;
 }
+
+span {
+  font-weight: 700;
+}
+
+p { visibility: hidden; }
 
 /* -----------------------------------------
    05 - Animation
@@ -65,17 +77,44 @@ section {
 }
 
 .lightrail .vehicle {
-  height: 1038px;
+  height: 768px;
 }
 
 .vehicle {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 1425px;
+  top: 3%;
+  left: 20%;
+  width: 1024px;
   z-index: 100;
+    animation-name: slideDown;
+  -webkit-animation-name: slideDown;  
+
+  animation-duration: 1s; 
+  -webkit-animation-duration: 1s;
+
+  animation-timing-function: ease;  
+  -webkit-animation-timing-function: ease;  
+
+  visibility: visible !important;           
 }
 
+@keyframes slideDown {
+  0%   { transform: translateY(-100%); transform: translateX(50%);}
+  50%  { transform: translateY(8%); transform: translateX(8%); }
+  65%  { transform: translateY(-4%); transform: translateX(-4%); }
+  80%  { transform: translateY(4%); transform: translateX(4%); }
+  95%  { transform: translateY(-2%); transform: translateX(-2%); }     
+  100% { transform: translateY(0%); transform: translateX(0%); }   
+}
+
+@-webkit-keyframes slideDown {
+  0%   { transform: translateY(-100%); transform: translateX(50%);}
+  50%  { transform: translateY(8%); transform: translateX(8%); }
+  65%  { transform: translateY(-4%); transform: translateX(-4%); }
+  80%  { transform: translateY(4%); transform: translateX(4%); }
+  95%  { transform: translateY(-2%); transform: translateX(-2%); }     
+  100% { transform: translateY(0%); transform: translateX(0%); }   
+}
 
 .vehicle-container {
   position: absolute;
@@ -94,28 +133,24 @@ section {
   position: absolute;
   display: block;
   width: 100%;
-  /* -webkit-transition: all 1s cubic bezier(0, 0.91, 0.22, 0.97);
-  -moz-transition: all 1s cubic bezier(0, 0.91, 0.22, 0.97);
-  -ms-transition: all 1s cubic bezier(0, 0.91, 0.22, 0.97);
-  transition: all 1s cubic bezier(0, 0.91, 0.22, 0.97); */
 } /* layers the images on top of each other and animates the container onto the stage */
 
 /* Vehicle ------------------------------- */
 
 .lrlayer-01 {
 	background-image: url("../images/layer-01.svg");
-	/*background-repeat: no-repeat;*/
-	height: 487px; /* 386(w) x 487(h) 
+	background-repeat: no-repeat;
+	height: 100%; /* 386(w) x 487(h) 
 	left: 235px;
 	top: -15px;*/
-	bottom: 0;
+	top: 0;
 	z-index: 100;
 } 
 
 .lrlayer-02 {
 	background-image: url("../images/layer-02.svg");
-	/*background-repeat: no-repeat;*/
-	height: 672px; /* 686(w) x 672(h)
+	background-repeat: no-repeat;
+	height: 100%; /* 686(w) x 672(h)
 	left: 248px;
 	top: 5px; */
 	z-index: 80;
@@ -123,8 +158,8 @@ section {
 
 .lrlayer-03 {
 	background-image: url("../images/layer-03.svg");
-	/*background-repeat: no-repeat;*/
- 	height: 206px; /* 424(w) x 206(h) 
+	background-repeat: no-repeat;
+ 	height: 100%; /* 424(w) x 206(h) 
 	left: 220px;
 	top: -43px;*/
 	z-index: 60;
@@ -132,21 +167,94 @@ section {
 
 .lrlayer-04 {
 	background-image: url("../images/layer-04.svg");
-	/*background-repeat: no-repeat;*/
-	height: 653px; /* 702(w) x 653(h)
+	background-repeat: no-repeat;
+	height: 100%; /* 702(w) x 653(h)
 	left: 245px;
 	top: 0px; */
 	z-index: 40;
+
+  -webkit-transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+   -moz-transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+     -o-transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+        transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); /* ease-out */
+
+-webkit-transition-timing-function: cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+   -moz-transition-timing-function: cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+     -o-transition-timing-function: cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+        transition-timing-function: cubic-bezier(0.000, 0.000, 0.580, 1.000); /* ease-out */
 }
 
 .lrlayer-05 {
 	background-image: url("../images/layer-05.svg");
-	/*background-repeat: no-repeat;*/
-	height: 1038px; /* 1425(w) x 1038(h);
+	background-repeat: no-repeat;
+	height: 100%; /* 1425(w) x 1038(h);
 	left: 248px;
 	top: 0px; */
 	z-index: 20;
 
 	/* 1425(w) x 1038(h) */
 }
+
+
+
+p.factoid-01, p.factoid-02, p.factoid-03, p.factoid-04, p.factoid-05 {
+  width: 250px;
+  padding: 24px;
+  background-color: #FCB813;
+  border-radius: 6px;
+}
+
+p.factoid-01 {
+  left: -17%;
+  top: 20%;
+  position: absolute;
+  z-index: 0;
+}
+
+p.factoid-02 {
+  top: 30%;
+  right: 18%;
+  position: absolute;
+}
+
+p.factoid-03 {
+  position: absolute;
+  top: 15%;
+  left: -13%;
+}
+
+p.factoid-04 {
+  position: absolute;
+  bottom: 42%;
+  left: 21%;
+  z-index: 300;
+}
+
+p.factoid-05 {
+  position: absolute;
+  right: 30%;
+  top: 10%;
+}
+
+p.factoid-06 {}
+
+/* .vehicle-container .vehicle:hover */ .vehicle-layer:hover {
+  -webkit-transform: translate(10%, 0);
+  -moz-transform: translate(10%, 0);
+  -o-transform: translate(10%, 0);
+  -ms-transform: translate(10%, 0);
+  transform: translate(10%, 0);
+}
+
+/*.vehicle-container .vehicle:hover .vehicle-layer:hover p {
+  margin: 5px 0;
+  opacity: 1;
+  -webkit-transform: translate(10%, -50%);
+  -moz-transform: translate(10%, -50%);
+  -o-transform: translate(10%, -50%);
+  -ms-transform: translate(10%, -50%);
+  transform: translate(10%, -50%);
+}
+
+
 
