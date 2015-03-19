@@ -7,7 +7,7 @@ body, html {
   background-color: #FCB813; /* Metro Gold */
 } /* what does this do? */
 
-body { font-family: "ff-din-web", 'Oswald', sans-serif; font-weight: 400; }
+body { font-family: "ff-din-web", 'Oswald', sans-serif; }
 
 /* -----------------------------------------
    02 - Menu
@@ -20,6 +20,8 @@ nav#menu {
   text-transform: uppercase;
   width: 100%;
   z-index: 200;
+    font-weight: 700 !important; 
+
 }
 
 nav#menu img {
@@ -40,9 +42,8 @@ div#logo-container img {
 
 div#vehicle-menu {
   float: right;
-  padding-right: 3%;
-  padding-top: 6px;
-  width: 40%;
+  padding: 0 3%;
+  font-weight: 700;
 }
 
 div#vehicle-menu ul {
