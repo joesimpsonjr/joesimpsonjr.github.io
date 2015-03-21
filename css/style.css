@@ -8,7 +8,7 @@ a:hover { color: #FEFDC5; }
 
 body { font-family: "ff-scala-sans-web", 'Oswald', sans-serif; font-weight: 400; min-height: 100%; min-width: 1024px; width: 100%; margin: 0; padding: 0; }
 
-h2 { font-family: "ff-din-web", 'Oswald', sans-serif; font-weight: 700; color: #fff; font-size: 9rem; font-weight: 700; margin: 0px; letter-spacing: -2px; }
+h2 { font-weight: 700; color: #fff; font-size: 9rem; font-weight: 700; margin: 0px; letter-spacing: -2px; }
 
 h2, p { text-align: center; }
 
@@ -33,7 +33,9 @@ div#disclaimer { background: #333; color: #999; padding: 5% 10%; }
 
 div#hero-01 { padding: 9rem 10% 15%; text-shadow: 0 0 3px #000, 0 0 5px #000 }
 
-div#hero-02, div#hero-04, div#hero-05, div#hero-06 { padding: 5% 10% 15%; }
+div#hero-02 { padding: 5% 10% 15%; }
+
+div#hero-04, div#hero-05, div#hero-06 { padding: 9rem 10% 15%; }
 
 div#hero-02 h2, div#hero-02 p { color: #333; }
 
@@ -69,9 +71,9 @@ div#vehicle-menu { float: right; color: #FFF; }
 
 nav#menu.dark { background: rgb(252, 184, 19); height: 80px; position: fixed; top: 0px; width: 100%; z-index: 1; display: none; }
 
-nav#menu.light { background: rgba(252, 184, 19, 0); height: 80px; position: fixed; top: 0px; width: 100%; z-index: 1; }
+nav#menu.light { background: rgba(252, 184, 19, 0); height: 80px; position: fixed; top: 0px; width: 100%; z-index: 1; }/* Use RGB with alpha */
 
-#select { background: rgb(252, 184, 19); border: 1px solid #FFFFFF; color:#FFFFFF; float: right; font-size: 1.3rem; font-family: 'Oswald', sans-serif; height: 50px; margin-right: 3% }
+#select { background: rgb(252, 184, 19); border: 1px solid #FFFFFF; color:#FFFFFF; float: right; font-size: 1.3rem; font-family: "ff-din-web", 'Oswald', sans-serif; height: 50px; margin-right: 3% }
 
 div#vehicle-menu { float: right; color: #FFF; margin-right: 3%; }
 
@@ -124,9 +126,9 @@ a:hover.animation-jump { background-color: #960307; text-shadow: none; }
    06 - Full Screen Background Video
 ------------------------------------------- */
 
-h2.video-text, p.video-text { position: absolute; z-index: 3000; color: #FFF; }
-h2.video-text { top: 1500px;  margin: 5% auto; width: 100%; }
-p.video-text { top: 1800px;  margin: 0 10% 5% !important;}
+h2.video-text, p.video-text { position: absolute; z-index: 3000; color: #FFF;  }
+h2.video-text { top: 1500px;  margin: 5% auto; width: 100%; } /* Weird video width anomally */
+p.video-text { top: 1800px;  margin: 0 10% 5% !important; width: 80%; } /* Weird video width anomally */ 
 
 video {
   position: relative; 
