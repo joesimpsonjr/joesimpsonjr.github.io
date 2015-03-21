@@ -8,7 +8,7 @@ a:hover { color: #FEFDC5; }
 
 body { font-family: "ff-scala-sans-web", 'Oswald', sans-serif; font-weight: 400; min-height: 100%; min-width: 1024px; width: 100%; margin: 0; padding: 0; }
 
-h2 { font-weight: 700; color: #fff; font-size: 9rem; font-weight: 700; margin: 0px; letter-spacing: -2px; }
+h2 { font-weight: 700; font-size: 9rem; font-weight: 700; margin: 0px; letter-spacing: -3px; }
 
 h2, p { text-align: center; }
 
@@ -16,12 +16,13 @@ h3 { color: rgb(252, 184, 19); font-weight: 300; }
 
 html { font-size: 100%; background-color: #333; }
 
-p { font-weight: 300; font-size: 1.3rem; color: #FFF; margin: 0px; }
+p { font-weight: 300; font-size: 1.3rem; color: #FFF; margin: 0px; line-height: 1.6; }
 
 footer p { font-size: 1rem; text-align: left; }
 
 button { width: 300px; background: #fd031c; padding: 12px; } /* RedHot */
 
+* { margin: 0; padding: 0; }
 
 /* -----------------------------------------
    02 - Selectors 
@@ -31,19 +32,13 @@ div#container { position: relative; }
 
 div#disclaimer { background: #333; color: #999; padding: 5% 10%; }
 
-div#hero-01 { padding: 9rem 10% 15%; text-shadow: 0 0 3px #000, 0 0 5px #000 }
+div#hero-01 h2, div#hero-04 h2, div#hero-05 h2, div#hero-05 p, div#hero-06 h2 { color: #fff; }
 
-div#hero-02 { padding: 5% 10% 15%; }
+div#hero-02 h2, div#hero-02 p { color: #333 !important; }
 
-div#hero-04, div#hero-05, div#hero-06 { padding: 9rem 10% 15%; }
+div#hero-01, div#hero-04, div#hero-05, div#hero-06 { padding: 9rem 10% 15%; text-shadow: 0 0 3px #333, 0 0 5px #333; }
 
-div#hero-02 h2, div#hero-02 p { color: #333; }
-
-* { margin: 0; padding: 0; }
-
-div#hero-05 h2, div#hero-05 p  { color: #333; }
-
-div#hero-02 { background: url('../images/map_mglfe_1420x750.png'); background-repeat: no-repeat; background-position-y: 50px; background-color: #EEE; }
+div#hero-02 { padding: 5% 10% 15%; background: url('../images/map_mglfe_1420x750.png'); background-repeat: no-repeat; background-position-y: 50px; background-position-x: center; background-color: #EEE; }
 
 div#hero-form { float: right; }
 
@@ -53,7 +48,7 @@ div.clearfix { clear: both; }
 
 span#extra-umph { background: rgba(252, 184, 19, .8); padding: 2px 6px; color: #000; text-shadow: none; }
 
-span#extra-legaleeze { color: #666; }
+span#extra-legaleeze { color: #fd031c; }
 
 /* -----------------------------------------
    03 - Main Menu
@@ -126,7 +121,7 @@ a:hover.animation-jump { background-color: #960307; text-shadow: none; }
    06 - Full Screen Background Video
 ------------------------------------------- */
 
-h2.video-text, p.video-text { position: absolute; z-index: 3000; color: #FFF;  }
+h2.video-text, p.video-text { position: absolute; z-index: 3000; color: #FFF; }
 h2.video-text { top: 1500px;  margin: 5% auto; width: 100%; } /* Weird video width anomally */
 p.video-text { top: 1800px;  margin: 0 10% 5% !important; width: 80%; } /* Weird video width anomally */ 
 
