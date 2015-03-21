@@ -1,106 +1,153 @@
 /* -----------------------------------------
-   01 - Global Tags 
--------------------------------------------
+   01 - Tags 
+-------------------------------------------*/
 
-a { text-decoration: none; color: #FCB813; }
+a { text-decoration: none; color: rgb(252, 184, 19); }
+
 a:hover { color: #FEFDC5; }
-div.clearfix { clear: both; }
-body { font-family: "ff-scala-sans-web", 'Oswald', sans-serif; }
+
+body { font-family: "ff-scala-sans-web", 'Oswald', sans-serif; font-weight: 400; min-height: 100%; min-width: 1024px; width: 100%; margin: 0; padding: 0; }
+
+h2 { font-family: "ff-din-web", 'Oswald', sans-serif; font-weight: 700; color: #fff; font-size: 9rem; font-weight: 700; margin: 0px; letter-spacing: -2px; }
+
+h2, p { text-align: center; }
+
+h3 { color: rgb(252, 184, 19); font-weight: 300; }
+
+html { font-size: 100%; background-color: #333; }
+
+p { font-weight: 300; font-size: 1.3rem; color: #FFF; margin: 0px; }
+
+footer p { font-size: 1rem; text-align: left; }
+
+button { width: 300px; background: #fd031c; padding: 12px; } /* RedHot */
+
 
 /* -----------------------------------------
    02 - Selectors 
 -------------------------------------------*/
 
+div#container { position: relative; }
 
+div#disclaimer { background: #333; color: #999; padding: 5% 10%; }
 
+div#hero-01 { padding: 9rem 10% 15%; text-shadow: 0 0 3px #000, 0 0 5px #000 }
+
+div#hero-02, div#hero-04, div#hero-05, div#hero-06 { padding: 5% 10% 15%; }
+
+div#hero-02 h2, div#hero-02 p { color: #333; }
+
+* { margin: 0; padding: 0; }
+
+div#hero-05 h2, div#hero-05 p  { color: #333; }
+
+div#hero-02 { background: url('../images/map_mglfe_1420x750.png'); background-repeat: no-repeat; background-position-y: 50px; background-color: #EEE; }
+
+div#hero-form { float: right; }
+
+div#logo-container { float: left; }
+
+div.clearfix { clear: both; }
+
+span#extra-umph { background: rgba(252, 184, 19, .8); padding: 2px 6px; color: #000; text-shadow: none; }
+
+span#extra-legaleeze { color: #666; }
 
 /* -----------------------------------------
    03 - Main Menu
 -------------------------------------------*/
 
-/* Exploding page menu ------------------- 
+div#logo-container { padding: 2%; width: 100%; position: fixed;}
 
-nav#menu.relative { position: absolute; width: 100%; z-index: 200; }
-div#logo-container { padding: 2%; } /* menu positioning changed for just this page templaate 
 div#logo-container img { float: left; }
-div#vehicle-menu { float: right; color: #FFF; margin-right: 3%; }
-div#vehicle-menu li { float: left; padding: 5% 0 5% 7%; }
+
+div#vehicle-menu li { float: left; padding: 14px; }
+
 div#vehicle-menu ul { list-style: none; display: inline-block; margin: 0; }
-body.interactive p { font-weight: 400; }
-body.interactive span { font-weight: 700; font-family: "ff-din-web", 'Oswald', sans-serif; }
+
+div#vehicle-menu { float: right; color: #FFF; }
+
+nav#menu.dark { background: rgb(252, 184, 19); height: 80px; position: fixed; top: 0px; width: 100%; z-index: 1; display: none; }
+
+nav#menu.light { background: rgba(252, 184, 19, 0); height: 80px; position: fixed; top: 0px; width: 100%; z-index: 1; }
+
+#select { background: rgb(252, 184, 19); border: 1px solid #FFFFFF; color:#FFFFFF; float: right; font-size: 1.3rem; font-family: 'Oswald', sans-serif; height: 50px; margin-right: 3% }
+
+div#vehicle-menu { float: right; color: #FFF; margin-right: 3%; }
+
+div#logo-container.light { background-color: rgb(252, 184, 19); display: none; }
+
+div#neo { width: 100%; text-align: center; position: relative; top: 100px; }
+
+div#neo img { margin-top: 7rem; }
+
+span.hamburger-dark { font-size: 5rem; float: right; display: none; }
+
+span.hamburger-light { font-size: 5rem; float: right; display: none; }
+
+a.animation-jump { color: white; background: red; padding: 12px 36px; display: inline-block; text-shadow: none; }
+
+a:hover.animation-jump { background-color: #960307; text-shadow: none; }
 
 /* -----------------------------------------
-   04 - Media Queries 
+   07 - Menu Swap
 -------------------------------------------*/
 
-/* Phones (portrait and landscape) ------- */
+.nav {
+    background-color:transparent;
+    color:#fff;
+    transition: all 0.25s ease;
+    position:fixed;
+    top:0;
+    width:100%;
+    background-color:#ccc;
+    padding:1em 0;
+    /* make sure to add vendor prefixes here */
+}
 
+.nav.past-main {
+    background-color:#fff;
+    color:#444;
+}
 
+##hero-01 {
+  height:500px;
+  background-color:red;
+}
+
+#below-main {
+  height:1000px;
+  background-color:#eee;
+}
 
 /* -----------------------------------------
-   05 - Animation
--------------------------------------------*/
+   06 - Full Screen Background Video
+------------------------------------------- */
 
-/* Vehicle ------------------------------- */
+h2.video-text, p.video-text { position: absolute; z-index: 3000; color: #FFF; }
+h2.video-text { top: 1500px;  margin: 5% auto; width: 100%; }
+p.video-text { top: 1800px;  margin: 0 10% 5% !important;}
 
-/* From Burger 
-
-body, html {
-  min-height: 100%;
-  min-width: 1024px;
-  width: 100%;
-  margin: 0;
-  padding: 0;
+video {
+  position: relative; 
+  right: 0; 
+  bottom: 0; 
+  min-width: 100%; 
+  min-height: 100%; 
+  width: auto;  
+  height: auto; 
+  z-index: -100; 
+  background: url(images/video.jpg) no-repeat; 
+  background-size: cover; 
+  display: block; 
 }
 
-.lightrail .vehicle { height: 710px; }
-
-section {display: block;}
-
-/* ---------------------------- */
-
-#layer-01 {
-	background-image: url("../images/layer-01.svg");
-	background-repeat: no-repeat;
-	height: 730px;
-	left: 235px;
-	top: -15px;
-	z-index: 100;
-} 
-
-#layer-02 {
-	background-image: url("../images/layer-02.svg");
-	background-repeat: no-repeat;
-	height: 700px;
-	left: 248px;
-	top: 5px;
-	z-index: 80;
-} 
-
-#layer-03 {
-	background-image: url("../images/layer-03.svg");
-	background-repeat: no-repeat;
-	height: 100%; /* 880px */
-	left: 220px;
-	top: -43px;
-	z-index: 60;
+/*@media screen and (max-device-width: 800px) { 
+  body { background: url(images/video.jpg) #000 no-repeat center center fixed;} 
+  #bgvid { display: none;}
 }
 
-#layer-04 {
-	background-image: url("../images/layer-04.svg");
-	background-repeat: no-repeat;
-	height: 700px;
-	left: 245px;
-	top: 0px;
-	z-index: 40;
-}
+video#bgvid { transition: 1s opacity; width: 1500px;}
+.stopfade { opacity: .5; }
 
-#layer-05 {
-	background-image: url("../images/layer-05.svg");
-	background-repeat: no-repeat;
-	height: 700px;
-	left: 248px;
-	top: 0px;
-	z-index: 20;
-}
 
