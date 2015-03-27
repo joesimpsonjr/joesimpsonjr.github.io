@@ -342,7 +342,7 @@ p.factoid-01, p.factoid-02, p.factoid-03, p.factoid-04, p.factoid-05 {
 
 p.factoid-01 {
   left: 5%;
-  top: 22%;
+  top: 25%;
   position: absolute;
   z-index: 0;
 }
@@ -422,8 +422,8 @@ p.factoid-05 {
     background-position: 0 -25px;
     width: 50px !important;
     height: 25px;
-    right: 600px;
-    top: 248px;
+    right: 584px;
+    top: 228px;
 }
 
 
