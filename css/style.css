@@ -138,10 +138,15 @@ video {
   display: block; 
 }
 
+@media screen and (max-device-width: 800px) { 
+  body { background: url(../images/video.jpg) #000 no-repeat center center fixed;} 
+  #bgvid { display: none;}
+}
+
+
 /* -------------------------------------------
    07 - Animation
 --------------------------------------------- */
-
 /* ----------- Slide Down ----------------- */
 .slideDown {
   -webkit-animation-name: slideDown; 
@@ -172,9 +177,6 @@ video {
 }
 
 
-/*@media screen and (max-device-width: 800px) { 
-  body { background: url(images/video.jpg) #000 no-repeat center center fixed;} 
-  #bgvid { display: none;}
-}
+
 video#bgvid { transition: 1s opacity; width: 1500px;}
 .stopfade { opacity: .5; }
