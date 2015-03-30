@@ -214,6 +214,28 @@ p, .crop-01, .crop-02, .crop-03, .crop-04, .crop-05 { visibility: hidden; }
     to{-webkit-transform: translateX(-25%);}
 }
 
+/* ----------- Slide Further Left ----------------- */
+
+@-webkit-keyframes slideFarleft {
+    from{-webkit-transform: translateX(-200%);}
+    to{-webkit-transform: translateX(0%);}
+}
+
+@-moz-keyframes slideFarleft {
+    from{-webkit-transform: translateX(-200%);}
+    to{-webkit-transform: translateX(0%);}
+}
+
+@-o-keyframes slideFarleft {
+    from{-webkit-transform: translateX(-200%);}
+    to{-webkit-transform: translateX(0%);}
+}
+
+@-keyframes slideFarleft {
+    from{-webkit-transform: translateX(-200%);}
+    to{-webkit-transform: translateX(0%);}
+}
+
 /* ----------- Slide Right ----------------- */
 
 @-webkit-keyframes slideRight {
@@ -426,6 +448,43 @@ p.factoid-05 {
     top: 228px;
 }
 
+/* -------------------------------------------------
+           Details Page
+-------------------------------------------------- */
 
+.details {
+  background: rgb(252, 184, 19);
+  border-radius: 12px;
+  color: #333;
+  font-size: 110%;
+  left: 25%;
+  margin: 0 auto;
+  padding: 2%;
+  position: absolute;
+  top: 20%;
+  width: 700px;
+  -webkit-animation-name: slideLeft;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: ease-out;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+}
 
+.details h1 { font-size: 1.3rem; }
 
+.details ul { font-weight: 400; margin-bottom: 2em; }
+
+.details p { visibility: visible; font-weight: 700; }
+
+a.animation-jump { 
+  color: #fff; 
+  background-color: #fd031c; 
+  border-radius: 6px; 
+  letter-spacing: 1px;
+  padding: 2%; 
+  text-transform: uppercase;
+}
+
+a.animation-jump:hover {
+  background-color: #FD5E2B;
+}

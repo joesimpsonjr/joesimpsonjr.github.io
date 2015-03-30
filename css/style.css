@@ -86,6 +86,8 @@ a.animation-jump { color: white; background: red; padding: 12px 36px; display: i
 
 a:hover.animation-jump { background-color: #960307; text-shadow: none;}
 
+a.animation-jump:hover { background-color: #FD5E2B; }
+
 /* -----------------------------------------
    07 - Menu Swap
 -------------------------------------------*/
