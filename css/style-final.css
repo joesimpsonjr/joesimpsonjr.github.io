@@ -72,11 +72,21 @@ p, .crop-01, .crop-02, .crop-03, .crop-04, .crop-05 { visibility: hidden; }
   left: 20%;
   width: 1024px;
   z-index: 100;
--webkit-animation-name: slideInDiagonal; 
--webkit-animation-duration: 2s;
--webkit-animation-timing-function: ease-out; /* smoothes out animation */
--webkit-animation-iteration-count: 1; /* number of times to loop */
--webkit-animation-fill-mode: forwards; /* keeps animation in its last keyframe */        
+
+  animation-name: slideInDiagonal; 
+  -webkit-animation-name: slideInDiagonal; 
+
+  animation-duration: 2s;
+  -webkit-animation-duration: 2s;
+
+  animation-timing-function: ease-out; /* smoothes out animation */
+  -webkit-animation-timing-function: ease-out; /* smoothes out animation */
+
+  animation-iteration-count: 1; /* number of times to loop */
+ -webkit-animation-iteration-count: 1; /* number of times to loop */
+
+  animation-fill-mode: forwards; /* keeps animation in its last keyframe */        
+  -webkit-animation-fill-mode: forwards; /* keeps animation in its last keyframe */        
 }
 
 .vehicle-container {
@@ -151,11 +161,11 @@ p, .crop-01, .crop-02, .crop-03, .crop-04, .crop-05 { visibility: hidden; }
 
 @-webkit-keyframes slideInDiagonal { 
     0% { -webkit-transform: translatex(130%) translatey(-80%); } /* NOTE: For Safari, you MUST have  -webkit-transform in the animation in order to work!!! Ugh. Refer to stackoverflow page bookmmarked. 3/20 */
-    100% { transform: translatex(0%) translatey(0%); }
+    100% { -webkit-transform: translatex(0%) translatey(0%); }
 }
 
 @-moz-keyframes slideInDiagonal {
-    0% { -webkit-transform: translatex(130%) translatey(-80%); }
+    0% { transform: translatex(130%) translatey(-80%); }
     100% { transform: translatex(0%) translatey(0%); }
 }
 
@@ -164,9 +174,9 @@ p, .crop-01, .crop-02, .crop-03, .crop-04, .crop-05 { visibility: hidden; }
     100% { transform: translatex(0%) translatey(0%); }
 }
 
-@-keyframes slideInDiagonal {
-    0% { transform: translatex(130%) translatey(-80%); }
-    100% { transform: translatex(0%) translatey(0%); }
+@keyframes slideInDiagonal {
+    0% {transform: translatex(130%) translatey(-80%);}
+    100% {transform: translatex(0%) translatey(0%);}
 }
 
 /* ----------- Diagonal Move ----------------- */
@@ -186,9 +196,9 @@ p, .crop-01, .crop-02, .crop-03, .crop-04, .crop-05 { visibility: hidden; }
     100% { transform: translatex(-30%) translatey(15%); }
 }
 
-@-keyframes slideDiagonal {
-    0% { transform: translatex(0%) translatey(0%); }
-    100% { transform: translatex(-30%) translatey(15%); }
+@keyframes slideDiagonal {
+    0% {transform: translatex(0%) translatey(0%);}
+    100% {transform: translatex(-30%) translatey(15%);}
 }
 
 /* ----------- Slide Left ----------------- */
@@ -199,18 +209,18 @@ p, .crop-01, .crop-02, .crop-03, .crop-04, .crop-05 { visibility: hidden; }
 }
 
 @-moz-keyframes slideLeft {
-    from{-webkit-transform: translateX(0%);}
-    to{-webkit-transform: translateX(-25%);}
+    from{-moz-transform: translateX(0%);}
+    to{-moz-transform: translateX(-25%);}
 }
 
 @-o-keyframes slideLeft {
-    from{-webkit-transform: translateX(0%);}
-    to{-webkit-transform: translateX(-25%);}
+    from{-o-transform: translateX(0%);}
+    to{-o-transform: translateX(-25%);}
 }
 
-@-keyframes slideLeft {
-    from{-webkit-transform: translateX(0%);}
-    to{-webkit-transform: translateX(-25%);}
+@keyframes slideLeft {
+    from{transform: translateX(0%);}
+    to{transform: translateX(-25%);}
 }
 
 /* ----------- Slide Further Left ----------------- */
@@ -230,9 +240,9 @@ p, .crop-01, .crop-02, .crop-03, .crop-04, .crop-05 { visibility: hidden; }
     to{-webkit-transform: translateX(0%);}
 }
 
-@-keyframes slideFarleft {
-    from{-webkit-transform: translateX(-200%);}
-    to{-webkit-transform: translateX(0%);}
+@keyframes slideFarleft {
+    from{transform: translateX(-200%);}
+    to{transform: translateX(0%);}
 }
 
 /* ----------- Slide Right ----------------- */
@@ -252,9 +262,9 @@ p, .crop-01, .crop-02, .crop-03, .crop-04, .crop-05 { visibility: hidden; }
     to{-webkit-transform: translateX(20%);}
 }
 
-@-keyframes slideRight {
-    from{-webkit-transform: translateX(0%);}
-    to{-webkit-transform: translateX(20%);}
+@keyframes slideRight {
+    from{transform: translateX(0%);}
+    to{transform: translateX(20%);}
 }
 
 /* ----------- Slide Up ----------------- */
@@ -274,28 +284,14 @@ p, .crop-01, .crop-02, .crop-03, .crop-04, .crop-05 { visibility: hidden; }
     to{-webkit-transform: translateY(-25%);}
 }
 
-@-keyframes slideUp {
-    from{-webkit-transform: translateY(0%);}
-    to{-webkit-transform: translateY(-25%);}
+@keyframes slideUp {
+    from{transform: translateY(0%);}
+    to{transform: translateY(-25%);}
 }
 
 /* ----------- Fade In ----------------- */
 
-@keyframes fadeIn {
-  0% { transform: scale(0); opacity: 0.0; }
-  60% { transform: scale(1.1); }
-  80% { transform: scale(0.9); opacity: 1;} 
-  100% { transform: scale(1); opacity: 1; }   
-}
-
 @-webkit-keyframes fadeIn {
-  0% { -webkit-transform: scale(0); opacity: 0.0; }
-  60% { -webkit-transform: scale(1.1); }
-  80% { -webkit-transform: scale(0.9); opacity: 1; }  
-  100% { -webkit-transform: scale(1); opacity: 1; }   
-}
-
-@-o-webkit-keyframes fadeIn {
   0% { -webkit-transform: scale(0); opacity: 0.0; }
   60% { -webkit-transform: scale(1.1); }
   80% { -webkit-transform: scale(0.9); opacity: 1; }  
@@ -309,45 +305,114 @@ p, .crop-01, .crop-02, .crop-03, .crop-04, .crop-05 { visibility: hidden; }
   100% { -webkit-transform: scale(1); opacity: 1; }   
 }
 
+@-o-webkit-keyframes fadeIn {
+  0% { -webkit-transform: scale(0); opacity: 0.0; }
+  60% { -webkit-transform: scale(1.1); }
+  80% { -webkit-transform: scale(0.9); opacity: 1; }  
+  100% { -webkit-transform: scale(1); opacity: 1; }   
+}
+
+@keyframes fadeIn {
+  0% { transform: scale(0); opacity: 0.0; }
+  60% { transform: scale(1.1); }
+  80% { transform: scale(0.9); opacity: 1;} 
+  100% { transform: scale(1); opacity: 1; }   
+}
+
 .vehicle-container:hover p, .vehicle-container:hover .crop-01, .vehicle-container:hover .crop-02, .vehicle-container:hover .crop-03, .vehicle-container:hover .crop-04, .vehicle-container:hover .crop-05  { 
 visibility: visible;
+
+animation-name: fadeIn; 
 -webkit-animation-name: fadeIn; 
+
+animation-duration: 1s;
 -webkit-animation-duration: 1s;
+
+animation-timing-function: ease-out; /* smoothes out animation */
 -webkit-animation-timing-function: ease-out; /* smoothes out animation */
+
+animation-iteration-count: 1; /* number of times to loop */
 -webkit-animation-iteration-count: 1; /* number of times to loop */
+
+animation-fill-mode: forwards; /* keeps animation in its last keyframe */
 -webkit-animation-fill-mode: forwards; /* keeps animation in its last keyframe */
+
 }
 
 .vehicle-container:hover .lrlayer-01 { 
+
+animation-name: slideDiagonal; 
 -webkit-animation-name: slideDiagonal; 
+
+animation-duration: 1s;
 -webkit-animation-duration: 1s;
+
+animation-timing-function: ease-out; /* smoothes out animation */
 -webkit-animation-timing-function: ease-out; /* smoothes out animation */
+
+animation-iteration-count: 1; /* number of times to loop */
 -webkit-animation-iteration-count: 1; /* number of times to loop */
+
+animation-fill-mode: forwards; /* keeps animation in its last keyframe */
 -webkit-animation-fill-mode: forwards; /* keeps animation in its last keyframe */
+
 }
 
 .vehicle-container:hover .lrlayer-02 { 
+
+animation-name: slideRight; 
 -webkit-animation-name: slideRight; 
+
+animation-duration: 1s;
 -webkit-animation-duration: 1s;
+
+animation-timing-function: ease-out; /* smoothes out animation */
 -webkit-animation-timing-function: ease-out; /* smoothes out animation */
+
+animation-iteration-count: 1; /* number of times to loop */
 -webkit-animation-iteration-count: 1; /* number of times to loop */
+
+animation-fill-mode: forwards; /* keeps animation in its last keyframe */
 -webkit-animation-fill-mode: forwards; /* keeps animation in its last keyframe */
+
 }
 
 .vehicle-container:hover .lrlayer-03 { 
+
+animation-name: slideUp; 
 -webkit-animation-name: slideUp; 
+
+animation-duration: 1s;
 -webkit-animation-duration: 1s;
+
+animation-timing-function: ease-out; /* smoothes out animation */
 -webkit-animation-timing-function: ease-out; /* smoothes out animation */
+
+animation-iteration-count: 1; /* number of times to loop */
 -webkit-animation-iteration-count: 1; /* number of times to loop */
+
+animation-fill-mode: forwards; /* keeps animation in its last keyframe */
 -webkit-animation-fill-mode: forwards; /* keeps animation in its last keyframe */
+
 }
 
 .vehicle-container:hover .lrlayer-04 { 
+
+animation-name: slideLeft; 
 -webkit-animation-name: slideLeft; 
+
+animation-duration: 1s;
 -webkit-animation-duration: 1s;
+
+animation-timing-function: ease-out; /* smoothes out animation */
 -webkit-animation-timing-function: ease-out; /* smoothes out animation */
+
+animation-iteration-count: 1; /* number of times to loop */
 -webkit-animation-iteration-count: 1; /* number of times to loop */
+
+animation-fill-mode: forwards; /* keeps animation in its last keyframe */
 -webkit-animation-fill-mode: forwards; /* keeps animation in its last keyframe */
+
 }
 
 /* ------------ Pop Up Text ---------------- */
@@ -363,7 +428,7 @@ p.factoid-01, p.factoid-02, p.factoid-03, p.factoid-04, p.factoid-05 {
 
 p.factoid-01 {
   left: 5%;
-  top: 25%;
+  top: 23%;
   position: absolute;
   z-index: 0;
 }
@@ -403,8 +468,8 @@ p.factoid-05 {
     background-position: 0 -75px;
     width: 50px !important;
     height: 25px;
-    left: 93px;
-    top: 348px;
+    left: 96px;
+    top: 358px;
 }
 
   .crop-02 {
@@ -414,7 +479,7 @@ p.factoid-05 {
     width: 50px !important;
     height: 25px;
     left: 375px;
-    top: 480px;
+    bottom: 264px;
 }
 
   .crop-03 {
@@ -444,7 +509,7 @@ p.factoid-05 {
     width: 50px !important;
     height: 25px;
     right: 584px;
-    top: 228px;
+    top: 276px;
 }
 
 /* -------------------------------------------------
@@ -462,11 +527,22 @@ p.factoid-05 {
   position: absolute;
   top: 20%;
   width: 700px;
+
+  animation-name: slideLeft;
   -webkit-animation-name: slideLeft;
+
+  animation-duration: 1s;
   -webkit-animation-duration: 1s;
+
+  animation-timing-function: ease-out;
   -webkit-animation-timing-function: ease-out;
+
+  animation-iteration-count: 1;
   -webkit-animation-iteration-count: 1;
+
+  animation-fill-mode: forwards;
   -webkit-animation-fill-mode: forwards;
+ 
 }
 
 .details h1 { font-size: 1.3rem; }

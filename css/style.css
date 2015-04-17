@@ -1,12 +1,32 @@
+/* Table of Contents 
+
+This stylesheet is a touch different than normal - for learning purposes, I've organized it based on tags, selectors and features.
+
+01  - Tags
+02  - Selectors
+03  - Main Menu
+03a - Menu Swap
+04  - Full Screen Background Video
+05  - CSS Animation
+06  - Media Queries
+
+*/
+
 /* -----------------------------------------
    01 - Tags 
 -------------------------------------------*/
+
+* { margin: 0; padding: 0; }
 
 a { text-decoration: none; color: rgb(252, 184, 19); }
 
 a:hover { color: #FEFDC5; }
 
 body { font-family: "ff-scala-sans-web", 'Oswald', sans-serif; font-weight: 400; min-height: 100%; min-width: 1024px; width: 100%; margin: 0; padding: 0; }
+
+button { width: 300px; background: #fd031c; padding: 12px; } /* RedHot */
+
+footer p { font-size: 1rem; text-align: left; }
 
 h2 { font-weight: 700; font-size: 9rem; font-weight: 700; margin: 0px; letter-spacing: -3px; }
 
@@ -18,15 +38,11 @@ html { font-size: 100%; background-color: #333; }
 
 p { font-weight: 300; font-size: 1.3rem; color: #FFF; margin: 0px; line-height: 1.6; }
 
-footer p { font-size: 1rem; text-align: left; }
-
-button { width: 300px; background: #fd031c; padding: 12px; } /* RedHot */
-
-* { margin: 0; padding: 0; }
-
 /* -----------------------------------------
    02 - Selectors 
 -------------------------------------------*/
+
+div.clearfix { clear: both; }
 
 div#container { position: relative; }
 
@@ -43,8 +59,6 @@ div#hero-02 { padding: 5% 10% 15%; background: url('../images/map_mglfe_1420x750
 div#hero-form { float: right; }
 
 div#logo-container { float: left; }
-
-div.clearfix { clear: both; }
 
 span#extra-umph { background: rgba(252, 184, 19, .8); padding: 2px 6px; color: #000; text-shadow: none; }
 
@@ -89,7 +103,7 @@ a:hover.animation-jump { background-color: #960307; text-shadow: none;}
 a.animation-jump:hover { background-color: #FD5E2B; }
 
 /* -----------------------------------------
-   07 - Menu Swap
+   03a - Menu Swap
 -------------------------------------------*/
 
 .dark {
@@ -119,7 +133,7 @@ a.animation-jump:hover { background-color: #FD5E2B; }
 }
 
 /* -----------------------------------------
-   06 - Full Screen Background Video
+   04 - Full Screen Background Video
 ------------------------------------------- */
 
 h2.video-text, p.video-text { position: absolute; z-index: 3000; color: #FFF; }
@@ -147,8 +161,10 @@ video {
 
 
 /* -------------------------------------------
-   07 - Animation
+   05 - CSS Animation
 --------------------------------------------- */
+
+
 /* ----------- Slide Down ----------------- */
 .slideDown {
   -webkit-animation-name: slideDown; 
@@ -179,6 +195,24 @@ video {
 }
 
 
-
 video#bgvid { transition: 1s opacity; width: 1500px;}
 .stopfade { opacity: .5; }
+
+
+/* -------------------------------------------
+   06 - Media Queries
+--------------------------------------------- */
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  a.animation-jump {font-size: 85%;}
+  h2 {font-size: 6em;}
+  p {font-size: 1em;}
+  div#vehicle-menu ul {font-size: 85%;}
+}
+
+
+@media only screen and (max-width: 820px) {
+}
+
+@media only screen and (min-width: 400px;) {
+  div#logo-container.dark {display: none;}
