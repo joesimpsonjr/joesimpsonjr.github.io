@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Huang Rail Anniversary Numerals Counter</title>
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="style-counter.css">
+
+<!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+
+<body>
+<div class="jquery-script-center">
+<div class="jquery-script-clear"></div>
+</div>
+<div class="numbers"> 
+  <span class="counter">80</span><p class="factoids">rail stations</p>
+</div>
+<div class="numbers"> 
+  <span class="counter">25,000</span>
+  <p class="factoids">motorists assisted a month by FSP</p> 
+</div>
+<div class="numbers"> 
+  <span class="counter">87</span>
+  <p class="factoids">miles of rail</p> 
+</div>
+<div class="numbers"> 
+  <span class="counter">170</span>
+  <p class="factoids">bus routes</p> 
+</div>
+<div class="numbers"> 
+  <span class="counter">1,600</span>
+  <p class="factoids">miles of bikeway</p> 
+</div>
+<div class="numbers"> 
+  <span class="counter">539</span>
+  <p class="factoids">Boardings per day</p>
+</div>
+<div class="numbers wide"> 
+  <span class="counter">1,200,000</span>
+  <p class="factoids">boardings per day</p>
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script> 
+<script src="js/jquery.counterup.min.js"></script> 
+<script>
+    jQuery(document).ready(function( $ ) {
+        $('.counter').counterUp({
+            delay: 10,
+            time: 1000
+        });
+    });
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
