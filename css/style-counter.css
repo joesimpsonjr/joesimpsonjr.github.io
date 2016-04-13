@@ -18,7 +18,7 @@
 
 .numbers {
   width: 33%;
-  color: #FFF;
+  color: #000;
   float: left;
 }
 
@@ -65,7 +65,7 @@ html {
 }
 span {
 font-size: 8em;
-color: #FFF;
+color: #27c0e8;
 margin-bottom: 0;
 display: inline-block;
 font-weight: 400;
@@ -89,7 +89,7 @@ text-align: left;
 display: block;
 font-family: Monaco, monospace;
 background: #444;
-color: #fff;
+color: #27c0e8;
 padding: 20px;
 font-size: 14px;
 margin-bottom: 100px;
