@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">	
+
+<title>Expo Line Trip Planner</title>
+	
+<link rel="stylesheet" type="text/css" href="css/style_form.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+<script src="https://use.typekit.net/zxi6vcb.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+</head>
+
+<body>
+<div class="form-container" >
+  <div class="expo-form" >
+      <h2>Plan your trip on the Expo Line!</h2>
+      <form action="https://trips.metro.net/tm_pub_start.php" method="get" name="formTrip" id="formTrip" onsubmit="Evaluate()">
+      	<fieldset>
+            <label for="place0"><a href="#" title="Enter address, intersection, or landmark. Use a forward slash for intersections." class="tooltip"><span title="">From:&nbsp;</span></a></label>&nbsp;<input name="place0" type="text" required class="inputWidth" id="place0" onFocus="this.select()" size="30" />
+            <!--<label for="place1">To </label>-->
+          <label for="place1">To:</label>&nbsp;
+            <select name="place1" class="inputWidth" id="place1" onFocus="this.select()">
+              <option selected>Select an Expo Line Station</option>
+              <option value="Palms Station">Palms Station</option>
+              <option value="Westwood Blvd/Rancho Park Station">Westwood/Rancho Park Station</option>
+              <option value="Expo/Sepulveda Station">Expo/Sepulveda Station</option>
+              <option value="Expo/Bundy Station">Expo/Bundy Station</option>
+              <option value="26th St/Bergamot Station">26th St/Bergamot Station</option>
+              <option value="17th St/Santa Monica College Station">17th St/Santa Monica College Station</option>
+              <option value="Downtown Santa Monica Station">Downtown Santa Monica Station</option>
+            </select>
+          </fieldset>
+          <fieldset class="second-line">
+            <div class="radio-leftfield">
+            <input name="timecrit0" class="radio" value="LV" type="radio">
+            <label for="timecrit2">Leave At&nbsp;</label> 
+            <input name="timecrit0" class="radio" title="radio" value="AR" checked="checked" type="radio">
+            <label for="timecrit3">Arrive By&nbsp;</label>
+            </div>
+            <p class="lefttoright">Day
+                <select name="day0" size="1" class="inputLong" id="day0">
+                  <option selected value="FRI">Friday&nbsp;</option>
+                  <option value="MON">Monday</option>
+                  <option value="TUE">Tuesday</option>
+                  <option value="WED">Wednesday</option>
+                  <option value="THU">Thursday</option>
+                  <option value="FRI">Friday</option>
+                  <option value="SAT">Saturday</option>
+                  <option value="SUN">Sunday</option>
+                </select>
+              </p>
+              <p class="lefttoright"><span class="visuallyhidden">
+                <label for="hour2">Hour</label>
+              </span>
+                <select name="hour0" size="1" class="input" id="hour0">
+                  <option value=" 12" selected>12</option>
+                  <option value="01">01</option>
+                  <option value="02">02</option>
+                  <option value="03">03</option>
+                  <option value="04">04</option>
+                  <option value="05">05</option>
+                  <option value="06">06</option>
+                  <option value="07">07</option>
+                  <option value="08">08</option>
+                  <option value="09">09</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                </select>
+              </p>
+              <p class="lefttoright"><span class="visuallyhidden">Minute</span>
+                <select name="min0" size="1" class="input" id="min0">
+                  <option value=" 00" selected>00</option>
+                  <option value="00">00</option>
+                  <option value="05">05</option>
+                  <option value="10">10</option>
+                  <option value="15">15</option>
+                  <option value="20">20</option>
+                  <option value="25">25</option>
+                  <option value="30">30</option>
+                  <option value="35">35</option>
+                  <option value="40">40</option>
+                  <option value="45">45</option>
+                  <option value="50">50</option>
+                  <option value="55">55</option>
+                </select>
+              </p>
+              <p class="lefttoright">AM/PM
+                <select name="ampm0" size="1" class="input" id="ampm0">
+                  <option value="P" selected="selected">PM</option>
+                  <option value="A">AM</option>
+                  <option value="P">PM</option>
+                <span class="visuallyhidden">
+                <input name="fare" id="fare" value="RG" type="hidden" />
+              </span></select>
+                </p>
+            </fieldset>
+        <input name="evaluateButton" type="submit" value="Explore" class="button submit">
+      </form>  
+  </div>	
+</div>
+</body>
+</html>
