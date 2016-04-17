@@ -46,6 +46,8 @@ select {
 
 select#hour0, select#min0, select#ampm0 {width: 4.5em;}
 
+select#day0 {width: 7.5em;}
+
 .expo-form {margin: 0 auto; max-width: 981px;}
 
 .expo-form h2 {color:#FFF; font-size: 1.3em; margin: 0 0 .3em; padding: 0;}
@@ -63,7 +65,7 @@ select#hour0, select#min0, select#ampm0 {width: 4.5em;}
 /* ------------------------------
     07a - Form Media Queries
 ------------------------------- */
-@media only screen and (max-width: 400px;) {
+@media only screen and (min-width: 400px;) {
 
 /*@media screen and (max-width: 23.4375;) {*/
     select {float: none; width: 95%; margin: 0;}
