@@ -20,6 +20,8 @@ input.button.submit:hover {background: #0A738E; border: 1px solid #FFF;}
 
 input[type="text"] {border: 1px solid #b2b2b2; height: 2.5em; width: 400px; font-size: 1em; margin-right: 2.5em; padding-left: 1em;}
 
+input.two {width: 325px;}
+
 p.lefttoright {float: left; margin: 0 .8em 1em 0; padding: 0;}
 
 select {
@@ -78,5 +80,3 @@ select#day0 {width: 7.5em;}
     .expo-form h2 {font-size: 1.1em; margin: 0 0 .3em;}
     .radio-leftfield {/*float:left; */margin: .5em 0 1em; width: 100%;}
 }
-
-
