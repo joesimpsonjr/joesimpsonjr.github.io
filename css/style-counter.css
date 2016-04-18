@@ -28,18 +28,20 @@
 }
 
 span.counter {
-  font-family: 'rail_anniversary_numerals';
-  display: inline-block; 
-  line-height: 0;
-  padding-top: 1em;
+    font-family: 'rail_anniversary_numerals';
+    display: inline-block;
+    line-height: 0;
+    padding-top: 1em;
+    -webkit-font-smoothing: antialiased;
 }
 
 p.factoids {
-  font-size: 1em;
-  font-weight: 700;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  margin-bottom: 0;
+    font-size: 1.1em;
+    font-weight: bold;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    text-transform: uppercase;
 }
 
 body {
@@ -63,16 +65,16 @@ margin-bottom: 30px;
 color: #999;
 }
 html {
-  background-color: #FFF;
+  background-color: #27c0e8;
 }
 span {
-font-size: 8em;
-color: #27c0e8;
+font-size: 7em;
+color: #FFF;
 margin-bottom: 0;
-display: inline-block;
+/*display: inline-block;*/
 font-weight: 400;
 text-align: center;
-line-height: 1.5;
+/*line-height: 1.5;*/
 letter-spacing: -6px;
 }
 span > span {
