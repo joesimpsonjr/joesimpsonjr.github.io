@@ -45,7 +45,7 @@ body {
 }
 
 * {
-font-family: 'Open Sans', sans-serif;
+font-family: "ff-scala-sans-web-sc", sans-serif;
 -webkit-transition: all 400ms ease;
 -moz-transition: all 400ms ease;
 -o-transition: all 400ms ease;
