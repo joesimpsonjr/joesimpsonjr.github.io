@@ -17,9 +17,10 @@
 }
 
 .numbers {
-  width: 33%;
   color: #000;
   float: left;
+  height: 12em;
+  width: 25%;
 }
 
 .numbers.wide {
@@ -38,7 +39,7 @@ p.factoids {
   font-weight: 700;
   letter-spacing: 1px;
   text-transform: uppercase;
-  margin-bottom: 5em;
+  margin-bottom: 0;
 }
 
 body {
