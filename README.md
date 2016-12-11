@@ -25,7 +25,7 @@ Over the past two General Assembly Javascript Development classes we leveraged *
 
 ### Toolbox
 <img src="http://saasiter.com/img/services/heroku.png.pagespeed.ce.VI9m2NmQL2.png" data-canonical-src="http://saasiter.com/img/services/heroku.png.pagespeed.ce.VI9m2NmQL2.png" width="100" height="100" Title="Heroku"/>
-<img src="http://wegeeks.us/assets/coffeescript_logo-553d0e0b9fc0a816ef444280eeabc84d.png"/>
+<img src="http://wegeeks.us/assets/coffeescript_logo-553d0e0b9fc0a816ef444280eeabc84d.png" width="100" height="100" Title="CoffeeScript"/>
 ![Git](http://www.driveplayer.com/third-party/github-logo/github-logo.png)
 ![Yeoman](http://javascript-html5-tutorial.com/wp-content/uploads/2016/08/yeoman-tool.png)
 
