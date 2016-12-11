@@ -5,21 +5,12 @@ Welcome to my repository. Here you’ll find information on Open Source projects
 **General Assembly**
 * **Javascript Development** (November 8, 2016 - January 31, 2017)
   * [Unit Project #1: Slackbot](#unit-project-1-slackbot)
-* **Front-End Web Development 2016 (December 6, 2014 - February 14, 2015)
-* Front-End Web Development (December 6, 2014 - February 14, 2015)
-* Intermediate WordPress Bootcamp (December 5, 2015)
-* An Introduction to PHP (October 28, 2015)
-* Introduction to Agile Development Process (October 20, 2015)
-* The Write Stuff: Creating Blog Content That Connects and Converts (October 8, 2015)
-
-
- | Description | Type/Tools
--------- | ----------- | ----
-**Voime** | General Assembly Front-End Web Development Fall 2015 Final Course Project. Rail Car Illustration (CSS Animation); Parallax Images; HTML 5 Video | Website
-**Tiffany Rail Anniversary Numerals** | SVG web font form Adobe Illustrator, Font Squirrel and Glyphs | Web Icon Font
-**More Expo Trip Planner Form** | Proposed embeddable form | CSS/HTML
-[**Star Trek 50th Anniversary**](https://s3-us-west-2.amazonaws.com/bonustreks/index.html) | General Assembly Front-End Web Development Fall 2016 | Bootstrap, jQuery libraries, Amazon Web Services, GitHub
-**JavaScript Development** | General Assembly Fall/Winter 2016 | Ira Herman Instructor
+* **Front-End Web Development 2016** (December 6, 2014 - February 14, 2015)
+* **Front-End Web Development** (December 6, 2014 - February 14, 2015)
+* **Intermediate WordPress Bootcamp** (December 5, 2015)
+* **An Introduction to PHP** (October 28, 2015)
+* **Introduction to Agile Development Process** (October 20, 2015)
+* **The Write Stuff: Creating Blog Content That Connects and Converts** (October 8, 2015)
 
 ##Course Projects
 *General Assembly Javascript Fundamentals*
