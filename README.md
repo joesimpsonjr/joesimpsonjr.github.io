@@ -20,7 +20,7 @@ Over the past two General Assembly Javascript Development classes we leveraged *
 > NOTE: In my office, we have bots that notify our team whenever a website build runs on our *Amazon Web Services* servers so I was aware that it could be done, but didn’t know the how.
 
 ### Toolbox
-<img scr="https://slack.com/img/slack_hash_128.v1464126652.png" width="100" height="100" Title="Slack"/>
+<img src="https://slack.com/img/slack_hash_128.v1464126652.png" width="100" height="100" Title="Slack"/>
 <img src="http://saasiter.com/img/services/heroku.png.pagespeed.ce.VI9m2NmQL2.png" data-canonical-src="http://saasiter.com/img/services/heroku.png.pagespeed.ce.VI9m2NmQL2.png" width="100" height="100" Title="Heroku"/>
 <img src="http://wegeeks.us/assets/coffeescript_logo-553d0e0b9fc0a816ef444280eeabc84d.png" width="100" height="100" Title="CoffeeScript"/>
 <img class="git" src="http://www.plusdoption.com/lib/img/all/github-logo.png" width="133" height="90" Title="GIT"/>
