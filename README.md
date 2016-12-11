@@ -2,10 +2,10 @@
 Welcome to my repository. Here you’ll find information on Open Source projects, course homework and more that I am working on and would like to share. Interested in finding our more, just use my screen name, *joesimpsonjr*, on social media (@facebook.com, @twitter, etc) or via email at @gmail.com.
 
 ## Coursework
-*General Assembly*
-* Javascript Development (November 8, 2016 - January 31, 2017)
-  * [*Unit Project #1: Slackbot*](#unit-project-1-slackbot)
-* Front-End Web Development 2016 (December 6, 2014 - February 14, 2015)
+**General Assembly**
+* **Javascript Development** (November 8, 2016 - January 31, 2017)
+  * [Unit Project #1: Slackbot](#unit-project-1-slackbot)
+* **Front-End Web Development 2016 (December 6, 2014 - February 14, 2015)
 * Front-End Web Development (December 6, 2014 - February 14, 2015)
 * Intermediate WordPress Bootcamp (December 5, 2015)
 * An Introduction to PHP (October 28, 2015)
