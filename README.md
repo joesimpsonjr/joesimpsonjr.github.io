@@ -3,7 +3,8 @@ Welcome to my repository. Here you’ll find information on Open Source projects
 
 ## Coursework
 *General Assembly*
-* [Javascript Development](#unit-project-1-slackbot) (November 8, 2016 - January 31, 2017)
+* Javascript Development (November 8, 2016 - January 31, 2017)
+  * [*Unit Project #1: Slackbot*](#unit-project-1-slackbot)
 * Front-End Web Development 2016 (December 6, 2014 - February 14, 2015)
 * Front-End Web Development (December 6, 2014 - February 14, 2015)
 * Intermediate WordPress Bootcamp (December 5, 2015)
