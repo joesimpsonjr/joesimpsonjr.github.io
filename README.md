@@ -26,7 +26,7 @@ Over the past two General Assembly Javascript Development classes we leveraged *
 ### Toolbox
 <img src="http://saasiter.com/img/services/heroku.png.pagespeed.ce.VI9m2NmQL2.png" data-canonical-src="http://saasiter.com/img/services/heroku.png.pagespeed.ce.VI9m2NmQL2.png" width="100" height="100" Title="Heroku"/>
 <img src="http://wegeeks.us/assets/coffeescript_logo-553d0e0b9fc0a816ef444280eeabc84d.png" width="100" height="100" Title="CoffeeScript"/>
-<img class="git" src="http://www.driveplayer.com/third-party/github-logo/github-logo.png" width="70" height="70" Title="GIT"/>
+<img class="git" src="http://www.plusdoption.com/lib/img/all/github-logo.png" width="70" height="70" Title="GIT"/>
 <img src="http://javascript-html5-tutorial.com/wp-content/uploads/2016/08/yeoman-tool.png" width="100" height="100" Title="Yeoman"/>
 
 * Terminal
@@ -58,4 +58,3 @@ My most important takeaway was is get as much exposure with what others have don
 [How I built a Slack bot to help me find an apartment in San Francisco](https://www.dataquest.io/blog/apartment-finding-slackbot/)
 [*Slackbot:* personal assistant and helpful bot](https://get.slack.help/hc/en-us/articles/202026038-Slackbot-personal-assistant-and-helpful-bot-)
 [*Bot Users*](https://api.slack.com/bot-users)
- 
