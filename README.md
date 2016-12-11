@@ -1,7 +1,18 @@
 # joesimpsonjr.github.io
 Welcome to my repository. Here you’ll find information on Open Source projects, course homework and more that I am working on and would like to share. Interested in finding our more, just use my screen name, *joesimpsonjr*, on social media (@facebook.com, @twitter, etc) or via email at @gmail.com.
 
-Projects | Description | Type/Tools
+## Coursework
+*General Assembly*
+* [Javascript Development](##Unit Project #1: Slackbot) (November 8, 2016 - January 31, 2017)
+* Front-End Web Development 2016 (December 6, 2014 - February 14, 2015)
+* Front-End Web Development (December 6, 2014 - February 14, 2015)
+* Intermediate WordPress Bootcamp (December 5, 2015)
+* An Introduction to PHP (October 28, 2015)
+* Introduction to Agile Development Process (October 20, 2015)
+* The Write Stuff: Creating Blog Content That Connects and Converts (October 8, 2015)
+
+
+ | Description | Type/Tools
 -------- | ----------- | ----
 **Voime** | General Assembly Front-End Web Development Fall 2015 Final Course Project. Rail Car Illustration (CSS Animation); Parallax Images; HTML 5 Video | Website
 **Tiffany Rail Anniversary Numerals** | SVG web font form Adobe Illustrator, Font Squirrel and Glyphs | Web Icon Font
@@ -9,16 +20,10 @@ Projects | Description | Type/Tools
 [**Star Trek 50th Anniversary**](https://s3-us-west-2.amazonaws.com/bonustreks/index.html) | General Assembly Front-End Web Development Fall 2016 | Bootstrap, jQuery libraries, Amazon Web Services, GitHub
 **JavaScript Development** | General Assembly Fall/Winter 2016 | Ira Herman Instructor
 
-## WordPress Development
-* Original Theme
-* Custom Post Types
-* Child Theming
-
-## Bootstrap Solutions
-Bootstrap v3 and v4 for forms, menus, tooltips, responsive templating
-
-# Unit Project #1: Slackbot
-**Project Brief**
+##Course Projects
+*General Assembly Javascript Fundamentals*
+##Unit Project #1: Slackbot
+###Project Brief
 Over the past two General Assembly Javascript Development classes we leveraged *Slack*, a tool used to communicate amongst ourselves, to build our own Slackbot (referred to as bot henceforth) to add an element of interaction to chat sessions. We used *Hubot*, a framework built by GitHub to do this work for us.
 
 > NOTE: In my office, we have bots that notify our team whenever a website build runs on our *Amazon Web Services* servers so I was aware that it could be done, but didn’t know the how.
@@ -58,3 +63,14 @@ My most important takeaway was is get as much exposure with what others have don
 [How I built a Slack bot to help me find an apartment in San Francisco](https://www.dataquest.io/blog/apartment-finding-slackbot/)
 [*Slackbot:* personal assistant and helpful bot](https://get.slack.help/hc/en-us/articles/202026038-Slackbot-personal-assistant-and-helpful-bot-)
 [*Bot Users*](https://api.slack.com/bot-users)
+
+
+
+## Projects
+WordPress Development
+* Original Theme
+* Custom Post Types
+* Child Theming
+
+## Bootstrap Solutions
+Bootstrap v3 and v4 for forms, menus, tooltips, responsive templating
