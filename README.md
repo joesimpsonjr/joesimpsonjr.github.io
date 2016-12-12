@@ -48,8 +48,8 @@ With Jobot up and running, I programmed basic interaction by leveraging Javascri
 
 #### Unsolved Mysteries
 In my experience, the process what pretty simple and seamless. My issues were:
-* RESPOND - I had some issues with whether mentions triggered the desired effect.
-* EXPRESSIONS - had to modify the code to get the desired effect
+* ```.respond``` - I had some issues with whether mentions triggered the desired effect.
+* ```.expressions``` - had to modify the code to get the desired effect
 
 #### Best Practices and Next Steps
 My most important takeaway was is get as much exposure with what others have done as a reference, inspiration and resource. Pseudocode as much of this inspiration as possible to get you started as well.
