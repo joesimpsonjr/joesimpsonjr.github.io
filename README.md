@@ -48,6 +48,7 @@ With Jobot up and running, I programmed basic interaction by leveraging Javascri
 
 #### Unsolved Mysteries
 In my experience, the process what pretty simple and seamless. My issues were:
+* Installation - needed admin priviledges required the use of ```sudo``` command to install all the items for this task.
 * ```.respond``` - I had some issues with whether mentions triggered the desired effect.
 * Expressions - had to modify the code to get the desired effect
 
