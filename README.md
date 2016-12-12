@@ -15,7 +15,7 @@ Welcome to my repository. Here you’ll find information on Open Source projects
 ##Course Projects
 ###Unit Project #1: Slackbot
 ####Project Brief
-Over the past two General Assembly Javascript Development classes we leveraged *Slack*, a tool used to communicate amongst ourselves, to build our own Slackbot (referred to as bot henceforth) to add an element of interaction to chat sessions. We used *Hubot*, a framework built by GitHub to do this work for us.
+Over the past two General Assembly Javascript Development classes (Dec 1, 5) we leveraged *Slack*, a tool used to communicate amongst ourselves, to build our own Slackbot (referred to as bot henceforth) to add an element of interaction to chat sessions. We used *Hubot*, a framework built by GitHub to do this work for us.
 
 > NOTE: In my office, we have bots that notify our team whenever a website build runs on our *Amazon Web Services* servers so I was aware that it could be done, but didn’t know the how.
 
@@ -26,7 +26,7 @@ Over the past two General Assembly Javascript Development classes we leveraged *
 <img class="git" src="http://www.plusdoption.com/lib/img/all/github-logo.png" width="133" height="90" Title="GIT"/>
 <img src="http://javascript-html5-tutorial.com/wp-content/uploads/2016/08/yeoman-tool.png" width="90" height="90" Title="Yeoman"/>
 
-* Terminal
+* Mac OS Terminal
 * Hubot
 * Heroku
 * CoffeeScript
