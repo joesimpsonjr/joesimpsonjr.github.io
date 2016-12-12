@@ -36,7 +36,7 @@ Over the past two General Assembly Javascript Development classes (Dec 1, 5) we 
 #### Building the Bot
 Slackbot construction, like any DIY job, takes some planning and execution. You need to:
 
-1. Register/create a profile on *Heroku*. Apps built with it are managed from the command line. what does Heroku is a Cloud Development Platform whose parent company is owned by Salesforce.
+1. Register/create a profile on *[Heroku](https://id.heroku.com/login)*. Apps built with it are managed from the command line. what does Heroku is a Cloud Development Platform whose parent company is owned by Salesforce.
 2. Created a directory to host the bot by using ```$ mkdir myhubot```
 3. Inside that directory, install *Hubot* and its dependencies listed above. In my case, I had to use the sudo command to install as an administrator
 4. After prompt, name and describe your bot
@@ -49,7 +49,7 @@ With Jobot up and running, I programmed basic interaction by leveraging Javascri
 #### Unsolved Mysteries
 In my experience, the process what pretty simple and seamless. My issues were:
 * ```.respond``` - I had some issues with whether mentions triggered the desired effect.
-* ```.expressions``` - had to modify the code to get the desired effect
+* Expressions - had to modify the code to get the desired effect
 
 #### Best Practices and Next Steps
 My most important takeaway was is get as much exposure with what others have done as a reference, inspiration and resource. Pseudocode as much of this inspiration as possible to get you started as well.
@@ -59,3 +59,9 @@ My most important takeaway was is get as much exposure with what others have don
 * [How I built a Slack bot to help me find an apartment in San Francisco](https://www.dataquest.io/blog/apartment-finding-slackbot/)
 * [Slackbot: personal assistant and helpful bot](https://get.slack.help/hc/en-us/articles/202026038-Slackbot-personal-assistant-and-helpful-bot-)
 * [Bot Users](https://api.slack.com/bot-users)
+
+##Me Time Projects
+* Star Trek 50th Anniversary Web Font
+* 25th Anniversary Rail Web Font
+* Star Trek 50th Anniversary Website
+* Metro Rail Vehicle Interactive Website
