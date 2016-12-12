@@ -33,8 +33,7 @@ Over the past two General Assembly Javascript Development classes we leveraged *
 * GIT; and
 * Yeoman
 
-
-### Building the Bot
+#### Building the Bot
 Slackbot construction, like any DIY job, takes some planning and execution. You need to:
 * Register/create a profile on *Heroku*. Apps built with it are managed from the command line. what does Heroku is a Cloud Development Platform whose parent company is owned by Salesforce.
   1. Created a directory to host the bot by using $ mkdir myhubot
@@ -42,19 +41,19 @@ Slackbot construction, like any DIY job, takes some planning and execution. You 
   3. After prompt, name and describe your bot
   4. Once generated, test your bot to make sure its online by using
   5. HUBOT_SLACK_TOKEN=TOKEN-GOES-HERE ./bin/hubot --adapter slack  (using the Slackbot API Key - classes worked in groups of 2 or 3 sharing the API)
-### Jobot at Your Command
+#### Jobot at Your Command
 With Jobot up and running, I programmed basic interaction by leveraging Javascript to get the bot to listen for specific phrases and respond. We learned how to utilize wildcards and expressions as well.
-### Unsolved Mysteries
+#### Unsolved Mysteries
 In my experience, the process what pretty simple and seamless. My issues were:
 * RESPOND - I had some issues with whether mentions triggered the desired effect.
 * EXPRESSIONS - had to modify the code to get the desired effect
-### Best Practices and Next Steps
+#### Best Practices and Next Steps
 My most important takeaway was is get as much exposure with what others have done as a reference, inspiration and resource. Pseudocode as much of this inspiration as possible to get you started as well.
-### More Candy
-[*Slack* Is Overrun With Bots. Friendly, Wonderful Bots](https://www.wired.com/2015/08/slack-overrun-bots-friendly-wonderful-bots/)
-[How I built a Slack bot to help me find an apartment in San Francisco](https://www.dataquest.io/blog/apartment-finding-slackbot/)
-[*Slackbot:* personal assistant and helpful bot](https://get.slack.help/hc/en-us/articles/202026038-Slackbot-personal-assistant-and-helpful-bot-)
-[*Bot Users*](https://api.slack.com/bot-users)
+#### More Candy
+* [Slack Is Overrun With Bots. Friendly, Wonderful Bots](https://www.wired.com/2015/08/slack-overrun-bots-friendly-wonderful-bots/)
+* [How I built a Slack bot to help me find an apartment in San Francisco](https://www.dataquest.io/blog/apartment-finding-slackbot/)
+* [Slackbot: personal assistant and helpful bot](https://get.slack.help/hc/en-us/articles/202026038-Slackbot-personal-assistant-and-helpful-bot-)
+* [Bot Users](https://api.slack.com/bot-users)
 
 
 
