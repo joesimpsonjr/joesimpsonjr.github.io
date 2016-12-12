@@ -35,13 +35,13 @@ Over the past two General Assembly Javascript Development classes we leveraged *
 
 #### Building the Bot
 Slackbot construction, like any DIY job, takes some planning and execution. You need to:
-* Register/create a profile on *Heroku*. Apps built with it are managed from the command line. what does Heroku is a Cloud Development Platform whose parent company is owned by Salesforce.
 
-1. Created a directory to host the bot by using $ mkdir myhubot
-2. Inside that directory, install *Hubot* and its dependencies listed above. In my case, I had to use the sudo command to install as an administrator
-3. After prompt, name and describe your bot
-4. Once generated, test your bot to make sure its online by using
-5. HUBOT_SLACK_TOKEN=TOKEN-GOES-HERE ./bin/hubot --adapter slack  (using the Slackbot API Key - classes worked in groups of 2 or 3 sharing the API)
+1. Register/create a profile on *Heroku*. Apps built with it are managed from the command line. what does Heroku is a Cloud Development Platform whose parent company is owned by Salesforce.
+2. Created a directory to host the bot by using ```$ mkdir myhubot```
+3. Inside that directory, install *Hubot* and its dependencies listed above. In my case, I had to use the sudo command to install as an administrator
+4. After prompt, name and describe your bot
+5. Once generated, test your bot to make sure its online by using
+6. ```HUBOT_SLACK_TOKEN=TOKEN-GOES-HERE ./bin/hubot --adapter slack```  (using the Slackbot API Key - classes worked in groups of 2 or 3 sharing the API)
 
 #### Jobot at Your Command
 With Jobot up and running, I programmed basic interaction by leveraging Javascript to get the bot to listen for specific phrases and respond. We learned how to utilize wildcards and expressions as well.
