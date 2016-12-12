@@ -36,8 +36,8 @@ Over the past two General Assembly Javascript Development classes (Dec 1, 5) we 
 #### Building the Bot
 Slackbot construction, like any DIY job, takes some planning and execution. You need to:
 
-1. Register/create a profile on *[Heroku](https://id.heroku.com/login)*. Apps built with it are managed from the command line. what does Heroku is a Cloud Development Platform whose parent company is owned by Salesforce.
-2. Created a directory to host the bot by using ```$ mkdir myhubot```
+1. Register/create a profile on *[Heroku](https://id.heroku.com/login)*. Apps built with it are managed from the command line. Heroku is a Cloud Development Platform whose parent company is owned by Salesforce.
+2. Install the toolbelt; created a directory to host the bot by using ```$ mkdir myhubot```
 3. Inside that directory, install *Hubot* and its dependencies listed above. In my case, I had to use the sudo command to install as an administrator
 4. After prompt, name and describe your bot
 5. Once generated, test your bot to make sure its online by using
