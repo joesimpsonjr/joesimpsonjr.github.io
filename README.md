@@ -19,7 +19,7 @@ Over the past two General Assembly Javascript Development classes we leveraged *
 
 > NOTE: In my office, we have bots that notify our team whenever a website build runs on our *Amazon Web Services* servers so I was aware that it could be done, but didn’t know the how.
 
-### Toolbox
+#### Toolbox
 <img src="https://slack.com/img/slack_hash_128.v1464126652.png" width="100" height="100" Title="Slack"/>
 <img src="http://saasiter.com/img/services/heroku.png.pagespeed.ce.VI9m2NmQL2.png" data-canonical-src="http://saasiter.com/img/services/heroku.png.pagespeed.ce.VI9m2NmQL2.png" width="100" height="100" Title="Heroku"/>
 <img src="http://wegeeks.us/assets/coffeescript_logo-553d0e0b9fc0a816ef444280eeabc84d.png" width="100" height="100" Title="CoffeeScript"/>
@@ -36,32 +36,26 @@ Over the past two General Assembly Javascript Development classes we leveraged *
 #### Building the Bot
 Slackbot construction, like any DIY job, takes some planning and execution. You need to:
 * Register/create a profile on *Heroku*. Apps built with it are managed from the command line. what does Heroku is a Cloud Development Platform whose parent company is owned by Salesforce.
-  1. Created a directory to host the bot by using $ mkdir myhubot
-  2. Inside that directory, install *Hubot* and its dependencies listed above. In my case, I had to use the sudo command to install as an administrator
-  3. After prompt, name and describe your bot
-  4. Once generated, test your bot to make sure its online by using
-  5. HUBOT_SLACK_TOKEN=TOKEN-GOES-HERE ./bin/hubot --adapter slack  (using the Slackbot API Key - classes worked in groups of 2 or 3 sharing the API)
+
+1. Created a directory to host the bot by using $ mkdir myhubot
+2. Inside that directory, install *Hubot* and its dependencies listed above. In my case, I had to use the sudo command to install as an administrator
+3. After prompt, name and describe your bot
+4. Once generated, test your bot to make sure its online by using
+5. HUBOT_SLACK_TOKEN=TOKEN-GOES-HERE ./bin/hubot --adapter slack  (using the Slackbot API Key - classes worked in groups of 2 or 3 sharing the API)
+
 #### Jobot at Your Command
 With Jobot up and running, I programmed basic interaction by leveraging Javascript to get the bot to listen for specific phrases and respond. We learned how to utilize wildcards and expressions as well.
+
 #### Unsolved Mysteries
 In my experience, the process what pretty simple and seamless. My issues were:
 * RESPOND - I had some issues with whether mentions triggered the desired effect.
 * EXPRESSIONS - had to modify the code to get the desired effect
+
 #### Best Practices and Next Steps
 My most important takeaway was is get as much exposure with what others have done as a reference, inspiration and resource. Pseudocode as much of this inspiration as possible to get you started as well.
+
 #### More Candy
 * [Slack Is Overrun With Bots. Friendly, Wonderful Bots](https://www.wired.com/2015/08/slack-overrun-bots-friendly-wonderful-bots/)
 * [How I built a Slack bot to help me find an apartment in San Francisco](https://www.dataquest.io/blog/apartment-finding-slackbot/)
 * [Slackbot: personal assistant and helpful bot](https://get.slack.help/hc/en-us/articles/202026038-Slackbot-personal-assistant-and-helpful-bot-)
 * [Bot Users](https://api.slack.com/bot-users)
-
-
-
-## Projects
-WordPress Development
-* Original Theme
-* Custom Post Types
-* Child Theming
-
-## Bootstrap Solutions
-Bootstrap v3 and v4 for forms, menus, tooltips, responsive templating
