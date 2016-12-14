@@ -1,0 +1,218 @@
+/* Table of Contents 
+
+This stylesheet is a touch different than normal - for learning purposes, I've organized it based on tags, selectors and features.
+
+01  - Tags
+02  - Selectors
+03  - Main Menu
+03a - Menu Swap
+04  - Full Screen Background Video
+05  - CSS Animation
+06  - Media Queries
+
+*/
+
+/* -----------------------------------------
+   01 - Tags 
+-------------------------------------------*/
+
+* { margin: 0; padding: 0; }
+
+a { text-decoration: none; color: rgb(252, 184, 19); }
+
+a:hover { color: #FEFDC5; }
+
+body { font-family: "ff-scala-sans-web", 'Oswald', sans-serif; font-weight: 400; min-height: 100%; min-width: 1024px; width: 100%; margin: 0; padding: 0; }
+
+button { width: 300px; background: #fd031c; padding: 12px; } /* RedHot */
+
+footer p { font-size: 1rem; text-align: left; }
+
+h2 { font-weight: 700; font-size: 9rem; font-weight: 700; margin: 0px; letter-spacing: -3px; }
+
+h2, p { text-align: center; }
+
+h3 { color: rgb(252, 184, 19); font-weight: 300; }
+
+html { font-size: 100%; background-color: #333; }
+
+p { font-weight: 300; font-size: 1.3rem; color: #FFF; margin: 0px; line-height: 1.6; }
+
+/* -----------------------------------------
+   02 - Selectors 
+-------------------------------------------*/
+
+div.clearfix { clear: both; }
+
+div#container { position: relative; }
+
+div#disclaimer { background: #333; color: #999; padding: 5% 10%; }
+
+div#hero-01 h2, div#hero-04 h2, div#hero-05 h2, div#hero-05 p, div#hero-06 h2 { color: #fff; }
+
+div#hero-02 h2, div#hero-02 p { color: #333 !important; }
+
+div#hero-01, div#hero-04, div#hero-05, div#hero-06 { padding: 9rem 10% 15%; text-shadow: 0 0 3px #333, 0 0 5px #333; }
+
+div#hero-02 { padding: 5% 10% 15%; background: url('../images/map_mglfe_1420x750.png'); background-repeat: no-repeat; background-position-y: 50px; background-position-x: center; background-color: #EEE; }
+
+div#hero-form { float: right; }
+
+div#logo-container { float: left; }
+
+span#extra-umph { background: rgba(252, 184, 19, .8); padding: 2px 6px; color: #000; text-shadow: none; }
+
+span#extra-legaleeze { color: #fd031c; }
+
+/* -----------------------------------------
+   03 - Main Menu
+-------------------------------------------*/
+
+div#logo-container { font-family: "ff-din-web", 'Oswald', sans-serif; font-weight: 400; padding: 2%; position: fixed; width: 100%; height: 40px; }
+
+div#logo-container img { float: left; height: 50px; }
+
+div#vehicle-menu li { float: left; padding: 14px; }
+
+div#vehicle-menu ul { list-style: none; display: inline-block; margin: 0; }
+
+div#vehicle-menu { float: right; color: #FFF; }
+
+nav#menu.dark { background: rgb(252, 184, 19); height: 80px; position: fixed; top: 0px; width: 100%; z-index: 1; /* display: none; */ }
+
+nav#menu.light { background: rgba(252, 184, 19, 0); height: 80px; position: fixed; top: 0px; width: 100%; z-index: 1; }/* Use RGB with alpha */
+
+#select { background: rgb(252, 184, 19); border: 1px solid #FFFFFF; color:#FFFFFF; float: right; font-size: 1.3rem; font-family: "ff-din-web", 'Oswald', sans-serif; height: 50px; margin-right: 3% }
+
+div#vehicle-menu { float: right; color: #FFF; margin-right: 3%; }
+
+div#logo-container.light { background-color: rgb(252, 184, 19); display: none; } /* Metro Gold */
+
+div#neo { width: 100%; text-align: center; position: relative; top: 100px; }
+
+div#neo img { margin-top: 5rem; }
+
+span.hamburger-dark { font-size: 5rem; float: right; display: none; }
+
+span.hamburger-light { font-size: 5rem; float: right; display: none; }
+
+a.animation-jump { color: white; background: red; padding: 12px 36px; display: inline-block; text-shadow: none; border-radius: 6px; text-transform: uppercase; letter-spacing: 1px; }
+
+a:hover.animation-jump { background-color: #960307; text-shadow: none;}
+
+a.animation-jump:hover { background-color: #FD5E2B; }
+
+/* -----------------------------------------
+   03a - Menu Swap
+-------------------------------------------*/
+
+.dark {
+    background-color:transparent;
+    color:#fff;
+    /* transition: all 0.25s ease; */
+    position:fixed;
+    top:0;
+    width:100%;
+    padding:1em 0;
+    /* make sure to add vendor prefixes here */
+}
+
+.nav.past-main {
+    background-color:#fff;
+    color:#444;
+}
+
+##hero-01 {
+  height:500px;
+  background-color:red;
+}
+
+#below-main {
+  height:1000px;
+  background-color:#eee;
+}
+
+/* -----------------------------------------
+   04 - Full Screen Background Video
+------------------------------------------- */
+
+h2.video-text, p.video-text { position: absolute; z-index: 3000; color: #FFF; }
+h2.video-text { top: 1500px;  margin: 5% auto; width: 100%; } /* Weird video width anomally */
+p.video-text { top: 1800px;  margin: 0 10% 5% !important; width: 80%; } /* Weird video width anomally */ 
+
+video {
+  position: relative; 
+  right: 0; 
+  bottom: 0; 
+  min-width: 100%; 
+  min-height: 100%; 
+  width: auto;  
+  height: auto; 
+  z-index: -100; 
+  background: url(../images/video.jpg) no-repeat; 
+  background-size: cover; 
+  display: block; 
+}
+
+@media screen and (max-device-width: 800px) { 
+  body { background: url(../images/video.jpg) #000 no-repeat center center fixed;} 
+  #bgvid { display: none;}
+}
+
+
+/* -------------------------------------------
+   05 - CSS Animation
+--------------------------------------------- */
+
+
+/* ----------- Slide Down ----------------- */
+.slideDown {
+  -webkit-animation-name: slideDown; 
+  -webkit-animation-duration: 0.25s;
+  -webkit-animation-timing-function: ease-out; /* smoothes out animation */
+  -webkit-animation-iteration-count: 1; /* number of times to loop */
+  -webkit-animation-fill-mode: forwards; /* keeps animation in its last keyframe */        
+}
+
+@-webkit-keyframes slideDown {
+    from{-webkit-transform: translateY(-80px);}
+    to{-webkit-transform: translateY(0%);}
+}
+
+@-moz-keyframes slideDown {
+    from{-webkit-transform: translateY(-80px);}
+    to{-webkit-transform: translateY(0%);}
+}
+
+@-o-keyframes slideDown {
+    from{-webkit-transform: translateY(-80px);}
+    to{-webkit-transform: translateY(0%);}
+}
+
+@-keyframes slideDown {
+    from{-webkit-transform: translateY(-80px);}
+    to{-webkit-transform: translateY(0%);}
+}
+
+
+video#bgvid { transition: 1s opacity; width: 1500px;}
+.stopfade { opacity: .5; }
+
+
+/* -------------------------------------------
+   06 - Media Queries
+--------------------------------------------- */
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  a.animation-jump {font-size: 85%;}
+  h2 {font-size: 6em;}
+  p {font-size: 1em;}
+  div#vehicle-menu ul {font-size: 85%;}
+}
+
+
+@media only screen and (max-width: 820px) {
+}
+
+@media only screen and (min-width: 400px;) {
+  div#logo-container.dark {display: none;}

@@ -1,1 +1,0 @@
--- This directory contains Cascading Style Sheets for the GA Final Project

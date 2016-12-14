@@ -1,1 +1,0 @@
--- This directory contains IMAGES for the GA Final Project

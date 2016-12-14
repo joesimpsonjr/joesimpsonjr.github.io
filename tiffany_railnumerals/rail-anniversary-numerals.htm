@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Tiffany Expo Line Numerals Counter</title>
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="/css/style-counter.css">
+<script src="https://use.typekit.net/fjl3pkn.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+<!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+
+<body>
+<div class="jquery-script-center">
+<div class="jquery-script-clear"></div>
+</div>
+<div class="numbers"> 
+  <span class="counter">6.6</span><p class="factoids">new miles of rail</p>
+</div>
+<div class="numbers"> 
+  <span class="counter">7</span>
+  <p class="factoids">new stations</p> 
+</div>
+<div class="numbers"> 
+  <span class="counter">46</span>
+  <p class="factoids">minute ride DTLA to DTSM</p> 
+</div>
+<div class="numbers"> 
+  <span class="counter">3</span>
+  <p class="factoids">new park &amp; ride lots</p> 
+</div>
+<div class="numbers"> 
+  <span class="counter">48</span>
+  <p class="factoids">new bike racks</p> 
+</div>
+<div class="numbers"> 
+  <span class="counter">72</span>
+  <p class="factoids">new bike lockers</p>
+</div>
+<div class="numbers"> 
+  <span class="counter">1</span>
+  <p class="factoids">new rail yard (division 14)</p>
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script> 
+<script src="js/jquery.counterup.min.js"></script> 
+<script>
+    jQuery(document).ready(function( $ ) {
+        $('.counter').counterUp({
+            delay: 10,
+            time: 1000
+        });
+    });
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
